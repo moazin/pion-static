@@ -3,10 +3,10 @@ require('popper.js');
 require('bootstrap');
 
 
-var images = ['/images/mic-01.jpg', '/images/mic-02.jpg', '/images/mic-03.jpg'];
+var images = ['images/mic-01.jpg', 'images/mic-02.jpg', 'images/mic-03.jpg'];
 var imageIndex = 0;
 
-var videos = ['/videos/video-01.mp4', '/videos/video-02.mp4', '/videos/video-03.mp4'];
+var videos = ['videos/video-01.mp4'];
 var videoIndex = 0;
 var TAG = 'mobile.js'
 

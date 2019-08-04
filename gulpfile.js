@@ -60,6 +60,11 @@ function images(){
 	.pipe(gulp.dest('dist/images'));
 }
 
+function videos(){
+	return gulp.src('src/videos/**/*.{mp4,mpeg,flv,ogg}')
+	.pipe(gulp.dest('dist/videos'));
+}
+
 function fonts(){
 	return gulp.src('src/fonts/*')
 	.pipe(gulp.dest('dist/fonts'));
@@ -69,4 +74,5 @@ exports.js = js;
 exports.site = site;
 exports.fonts = fonts;
 exports.images = images;
-exports.default = gulp.series(site, css, js, fonts, images);
+exports.videos = videos;
+exports.default = gulp.series(site, css, js, fonts, images, videos);
