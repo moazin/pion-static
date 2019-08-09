@@ -1,0 +1,116 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/font-awesome/scss/font-awesome.scss';
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    // background: var(--color-6);
+}
+
+footer #google-map-container, #contact-us-container {
+    width: 100%;
+    height: auto;
+}
+
+footer #google-map-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer #contact-us-container {
+    width: 100%;
+    padding: 32px 8px;
+    background: var(--color-5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #contact-form .row {
+    // background: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+footer #contact-form label {
+    // background: blue;
+    text-align: right;
+    width: 30%;
+    padding-right: 8px;
+}
+
+footer #contact-form input {
+    // background: gray;
+    text-align: left;
+    width: 70%;
+    max-width: 256px;
+}
+
+footer #quick-links-container {
+    // background: linear-gradient(var(--color-5), var(--color-7));
+    background: var(--color-1);
+}
+
+footer #quick-links-container table {
+    text-align: center;
+    width: 100%;
+}
+
+footer #quick-links-container table td {
+    padding: 16px 8px;
+    border: 1px solid black;
+    background: var(--color-2);
+}
+
+footer #quick-links-container table tbody td:hover {
+    background: var(--color-7);
+    cursor: pointer;
+}
+
+footer #quick-links-container thead td {
+    background: var(--color-8);
+    font-weight: bold;
+}
+
+footer #credits {
+    background: black;
+    margin: 0px;
+    padding: 16px;
+    text-align: center;
+}
+
+footer #credits a {
+    color: white;
+    text-decoration: none;
+}
+
+footer #credits a:hover {
+    color: var(--color-3);
+}
+
+@media screen and (min-width: 700px) {
+    footer #footer-row {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+    }
+    #footer-row #google-map-container,
+    #contact-us-container {
+        flex-grow: 1;
+    }
+    footer #quick-links-container table {
+        width: 80%;
+        margin: auto;
+    }
+    footer #quick-links-container {
+        padding: 64px 0px;
+    }
+}

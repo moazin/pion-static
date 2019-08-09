@@ -1,22 +1,42 @@
-var $ = require('jquery');
-require('popper.js');
-require('bootstrap');
+import $ from 'jquery';
+import 'popper.js';
+import 'bootstrap';
 
+// var $ = require('jquery');
+// require('popper.js');
+// require('bootstrap');
 
 var images = ['images/mic-01.jpg', 'images/mic-02.jpg', 'images/mic-03.jpg'];
 var imageIndex = 0;
 
 var videos = ['videos/video-01.mp4'];
 var videoIndex = 0;
-var TAG = 'mobile.js'
+var TAG = '[mobile.js] : '
 
 $(function() {
     console.log(TAG + 'document: starts');
+    console.log(sessionStorage.getItem('indexActive'));
 
-    $('#menu-icon').click(function() {
-        console.log(TAG + 'menu-icon click: starts');
-        $('#top-nav').toggleClass('responsive');
-        console.log(TAG + 'menu-icon click: ends');
+    if(sessionStorage.getItem('indexActive')) {
+        var indexActive = sessionStorage.getItem('indexActive');
+        var activeChild = $('#nav-menu').children()[indexActive];
+    } else {
+        var activeChild = $('#nav-menu').children()[0];
+    }
+    $('.active').removeClass('active');
+    $(activeChild).addClass('active');
+
+    $('#nav-menu-control').click(function() {
+        console.log(TAG + 'nav-menu-control click: starts');
+        $('#nav-menu').slideToggle();
+        $('#nav-menu').toggleClass('nav-menu-toggle');
+        console.log(TAG + 'nav-menu-control click: ends');
+    });
+
+    $('#nav-menu a').click(function() {
+        console.log(TAG + 'nav-menu <a> clicked');
+        console.log(TAG + $(this).attr('index'));
+        sessionStorage.setItem('indexActive', $(this).attr('index'));
     });
 
     $('#section-image-slider .slide-left-button').click(function() {

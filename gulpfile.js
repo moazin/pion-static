@@ -22,7 +22,7 @@ function site(){
 }
 
 function css(){
- return gulp.src('src/sass/mobile.scss')
+ return gulp.src('src/sass/**/*.scss')
 	.pipe(sass().on('error', sass.logError))
 	.pipe(uglifycss({
 		"maxLineLen": 80,
@@ -33,13 +33,12 @@ function css(){
 
 // webpack stuff
 const webpackConfig = {
-	entry: './src/js/mobile.js',
+	entry: './src/js/main.js',
 	output: {
 		path: path.resolve(__dirname, 'dist/js'),
-		filename: 'mobile.js'
+		filename: 'main.js'
 	}
 };
-
 
 function js(){
 	return new Promise((resolve, reject) => {
@@ -69,6 +68,7 @@ function fonts(){
 	return gulp.src('src/fonts/*')
 	.pipe(gulp.dest('dist/fonts'));
 }
+
 exports.css = css;
 exports.js = js;
 exports.site = site;
