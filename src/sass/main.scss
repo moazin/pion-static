@@ -27,6 +27,12 @@ section h1 {
     font-size: 7vw;
 }
 
+@media (min-width: 800px) {
+    section h1 {
+        font-size: 56px;
+    }
+}
+
 .container-flexible {
     width: 100%;
     max-height: 100vh;
@@ -58,7 +64,7 @@ section h1 {
     top: 20%;
     font-size: 18vw;
     left: 4%;
-    background: -webkit-linear-gradient(45deg, var(--color-3), var(--color-1));
+    background: -webkit-linear-gradient(45deg, var(--color-3), var(--color-8));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
