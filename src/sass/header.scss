@@ -24,8 +24,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 #header {
     width: 100%;
+    position: relative;
+    z-index: 100;
     background-color: var(--color-2);
-    box-shadow: 0 4px 8px 8px #000000;
+    box-shadow: 0 0px 8px 8px #00000077;
 }
 
 #header #top-bar {

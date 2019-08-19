@@ -14,16 +14,25 @@ var TEAMS_DATA = {
         'members': ['ahsan mukhtar', 'aroosha pervaiz', 'hassan askary', 'mishal fatima', 'muhammad mohad', 'shaharyar sajid', 'talha amjad', 'talha bilal', 'urwah bin aamer', 'zain rehman', 'zubair khan']
     },
     'design': {
-        'mentors': ['ali nauroze'],
-        'coordinators': ['moazin khatri'],
-        'heads': ['abdul rehman', 'hassan sattar'],
-        'members': ['ahsan mukhtar', 'aroosha pervaiz', 'hassan askary', 'mishal fatima', 'muhammad mohad', 'shaharyar sajid', 'talha amjad', 'talha bilal', 'urwah bin aamer', 'zain rehman', 'zubair khan']
+
     },
     'management': {
-        'mentors': ['ali nauroze'],
-        'coordinators': ['moazin khatri'],
-        'heads': ['abdul rehman', 'hassan sattar'],
-        'members': ['ahsan mukhtar', 'aroosha pervaiz', 'hassan askary', 'mishal fatima', 'muhammad mohad', 'shaharyar sajid', 'talha amjad', 'talha bilal', 'urwah bin aamer', 'zain rehman', 'zubair khan']
+
+    },
+    'liaision': {
+
+    },
+    'videography': {
+
+    },
+    'photography': {
+
+    },
+    'transport': {
+
+    },
+    'sponsorship': {
+
     }
 };
 
@@ -106,45 +115,50 @@ function createTeamsPage() {
         html += '    <h1>Team ' + team_name + '</h1>\n';
         html += '    <div class="members-container">\n';
 
-        html += '        <div class="mentors">\n';
-        for(let name of mentors) {
-            html += '            <div class="team-member">\n';
-            html += '                <img src="images/pion19-logo-02.png" alt="Member\'s Image">\n';
-            html += '                <p class="member-name">' + name + '</p>\n';
-            html += '                <p class="member-post">Mentor</p>\n';
-            html += '            </div>\n';
+        if(mentors) {
+            html += '        <div class="mentors">\n';
+            for(let name of mentors) {
+                html += '            <div class="team-member">\n';
+                html += '                <img src="images/pion19-logo-02.png" alt="Member\'s Image">\n';
+                html += '                <p class="member-name">' + name + '</p>\n';
+                html += '                <p class="member-post">Mentor</p>\n';
+                html += '            </div>\n';
+            }
+            html += '        </div>\n';
         }
-        html += '        </div>\n';
-
-        html += '        <div class="coordinators">\n';
-        for(let name of coordinators) {
-            html += '            <div class="team-member">\n';
-            html += '                <img src="images/pion19-logo-02.png" alt="Member\'s Image">\n';
-            html += '                <p class="member-name">' + name + '</p>\n';
-            html += '                <p class="member-post">Coordinator</p>\n';
-            html += '            </div>\n';
+        if(coordinators){
+            html += '        <div class="coordinators">\n';
+            for(let name of coordinators) {
+                html += '            <div class="team-member">\n';
+                html += '                <img src="images/pion19-logo-02.png" alt="Member\'s Image">\n';
+                html += '                <p class="member-name">' + name + '</p>\n';
+                html += '                <p class="member-post">Coordinator</p>\n';
+                html += '            </div>\n';
+            }
+            html += '        </div>\n';
         }
-        html += '        </div>\n';
-
-        html += '        <div class="heads">\n';
-        for(let name of heads) {
-            html += '            <div class="team-member">\n';
-            html += '                <img src="images/pion19-logo-02.png" alt="Member\'s Image">\n';
-            html += '                <p class="member-name">' + name + '</p>\n';
-            html += '                <p class="member-post">Head</p>\n';
-            html += '            </div>\n';
+        if(heads) {
+            html += '        <div class="heads">\n';
+            for(let name of heads) {
+                html += '            <div class="team-member">\n';
+                html += '                <img src="images/pion19-logo-02.png" alt="Member\'s Image">\n';
+                html += '                <p class="member-name">' + name + '</p>\n';
+                html += '                <p class="member-post">Head</p>\n';
+                html += '            </div>\n';
+            }
+            html += '        </div>\n';
         }
-        html += '        </div>\n';
-
-        html += '        <div class="members">\n';
-        for(let name of members) {
-            html += '            <div class="team-member">\n';
-            html += '                <img src="images/pion19-logo-02.png" alt="Member\'s Image">\n';
-            html += '                <p class="member-name">' + name + '</p>\n';
-            html += '                <p class="member-post">Member</p>\n';
-            html += '            </div>\n';
+        if(members) {
+            html += '        <div class="members">\n';
+            for(let name of members) {
+                html += '            <div class="team-member">\n';
+                html += '                <img src="images/pion19-logo-02.png" alt="Member\'s Image">\n';
+                html += '                <p class="member-name">' + name + '</p>\n';
+                html += '                <p class="member-post">Member</p>\n';
+                html += '            </div>\n';
+            }
+            html += '        </div>\n';
         }
-        html += '        </div>\n';
 
         html += '    </div>\n';
         html += '</section>\n';
