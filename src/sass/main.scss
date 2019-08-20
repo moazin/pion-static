@@ -1,6 +1,5 @@
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'node_modules/font-awesome/scss/font-awesome.scss';
-
 * {
     --color-1: #250E28;
     --color-2: #F4EDDA;
@@ -10,7 +9,6 @@
     --color-6: #F4E4C0;
     --color-7: #F9C311;
     --color-8: #EB9A20;
-
     box-sizing: border-box;
     font-family: roboto, comfortaa, Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -29,7 +27,7 @@ section h1 {
 
 @media (min-width: 800px) {
     section h1 {
-        font-size: 56px;
+        font-size: 50px;
     }
 }
 
@@ -41,56 +39,73 @@ section h1 {
     overflow: hidden;
 }
 
+#section-intro {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #section-intro #background {
+    position: absolute;
+    z-index: -1;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     filter: blur(2px) grayscale(1);
 }
 
+#section-intro #text-div {
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #section-intro p {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 5%;
     color: white;
+    margin: 0px;
+    padding: 0px;
 }
 
 #section-intro #full-form {
-    top: 20%;
-    font-size: 4vw;
+    font-size: 5vw;
 }
 
 #section-intro #abbrevation {
-    top: 20%;
-    font-size: 18vw;
-    left: 4%;
+    line-height: 1em;
+    font-size: 20vw;
     background: -webkit-linear-gradient(45deg, var(--color-3), var(--color-8));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 #section-intro #tag-line {
-    top: 60%;
-    font-size: 4vw;
+    font-size: 6vw;
     font-style: italic;
 }
 
 #section-intro button {
-    z-index: 1;
-    position: absolute;
-    top: 75%;
-    left: 5%;
     border: 1px solid var(--color-8);
-    background: var(--color-7);
-    color: var(--color-1);
-    padding: 8px 16px;
+    margin: 32px 0 0 0;
     border-radius: 4px;
-    font-size: 2vw;
+    overflow: hidden;
+}
+
+#section-intro button a {
+    text-decoration: none;
+    color: var(--color-1);
+    background: var(--color-7);
+    padding: 8px 16px;
+    font-size: 5vw;
     font-weight: bold;
 }
 
-#section-intro button:hover {
-    background: var(--color-1);;
+#section-intro button a:hover {
+    background: var(--color-1);
     color: var(--color-7);
 }
 
@@ -98,19 +113,32 @@ section h1 {
     display: none;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
+    #section-intro #text-div {
+        margin: 32px 0px;
+    }
     #section-intro #full-form {
         font-size: 40px;
     }
     #section-intro #abbrevation {
-        font-size: 180px;
+        font-size: 160px;
     }
     #section-intro #tag-line {
-        font-size: 40px;
+        font-size: 48px;
+    }
+    #section-intro button a {
+        font-size: 32px;
     }
 }
 
 @media screen and (min-width: 1200px) {
+    #section-intro {
+        min-height: 100vh;
+    }
+    #section-intro #text-div {
+        align-items: flex-start;
+        padding-left: 64px;
+    }
     #section-intro #logo {
         display: inline-block;
         width: 32%;
@@ -122,6 +150,35 @@ section h1 {
         background: var(--color-1);
         padding: 8px;
     }
+}
+
+#section-countdown {
+    min-height: 100vh;
+}
+
+#section-countdown #countdown-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    text-align: center;
+    padding: 32px 8px;
+}
+
+#countdown-container td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 16px;
+}
+
+#countdown-container .col-1 {
+    text-align: right;
+}
+
+#countdown-container .col-2 {
+    text-align: left;
 }
 
 #section-past-info #info-container {
@@ -227,7 +284,8 @@ section h1 {
     max-height: 100vh;
 }
 
-#section-sponsorship, #sponsorship-container {
+#section-sponsorship,
+#sponsorship-container {
     width: 100%;
     max-height: unset;
     position: unset;
@@ -242,7 +300,6 @@ section h1 {
 //     background: linear-gradient(30deg, var(--color-8), var(--color-7));
 //     color: black;
 // }
-
 #section-sponsorship #sponsorship-container {
     display: flex;
     flex-direction: row;
