@@ -15,7 +15,7 @@ var TEAMS_DATA = {
     'management': {
         'coordinators': ['muneeb ur rehman'],
         'heads': ['dawood mazhar', 'khan salik najeeb', 'daud shafqat'],
-        'members': ['aamir abbas', 'aamna khan', 'abdul hannan', 'abdul moeez', 'abdul rafay', 'abdul samad', 'ahmed dar', 'ahmad hassan', 'ahmad hussain', 'ahmad kamal baig', 'aleena ajaz', 'ali amin', 'ali hassan', 'aneela riaz', 'aqsa mushtaq', 'asif mahmood', 'ayatullah saifullah', 'ayesha salar', 'bibi ayisha', 'bilal ahmad', 'emaan zahra', 'faiz ahmed', 'fareed hussain', 'fasih shaukat', 'hajrah rameen', 'hammad ali', 'hassan abbas', 'hassan askary', 'huzaifa nadeem', 'inaam ullah', 'iqra ayesha', 'kamla bibi', 'kashif munir', 'khan salik najeeb', 'khaz ahmed', 'm. haider khan', 'm.mouaaz ranjha', 'maham ibrar', 'mehwish israr', 'minahil zafar', 'mir hamza', 'mohammad hisham raja', 'mohammad hussain', 'muhammad abdullah ansari', 'muhammad ahmad', 'muhammad ahmad bashir', 'muhammad ali', 'muhammad arfat amir', 'muhammad aslam', 'muhammad azeem sarwar', 'muhammad ehtisham', 'muhammad furqan', 'muhammad haseeb hashim', 'muhammad hassaan', 'muhammad hassan', 'muhammad haziq', 'muhammad hunzilah', 'muhammad inaam elahi', 'muhammad mohad', 'muhammad taha nasir', 'muhammad talha', 'muhammad umair aziz', 'muhammad umair ismail', 'muhammad zeeshan', 'muhammed bilal', 'musfirah ehsan', 'nimra riaz', 'rabiyya mir', 'rao usama', 'sadaf', 'saeeed ahmad', 'saif ullah', 'samavia jaffery', 'saqib shahzad', 'shams ul hassan', 'shan yousaf', 'sheikh nauman ahmed', 'sijil jehangir', 'sonia ahmad khan', 'sukaina najm', 'syed fahad ullah', 'syed qasim raza', 'taimoor ahmad khan', 'tanveer hussain', 'umar asif', 'umar tariq', 'umer farooq', 'urwah bin aamer', 'usama shahid', 'warda tu zahra', 'zoha assad', 'zubair khan', 'zunair malik']
+        'members': ['aamir abbas', 'aamna khan', 'abdul hannan', 'abdul moeez', 'abdul rafay', 'abdul samad', 'ahmed dar', 'ahmad hassan', 'ahmad hussain', 'ahmad kamal baig', 'aleena ajaz', 'ali amin', 'ali hassan', 'aneela riaz', 'aqsa mushtaq', 'asif mahmood', 'ayatullah saifullah', 'ayesha salar', 'bibi ayisha', 'bilal ahmad', 'emaan zahra', 'faiz ahmed', 'fareed hussain', 'fasih shaukat', 'hajrah rameen', 'hammad ali', 'hassan abbas', 'hassan askary', 'huzaifa nadeem', 'inaam ullah', 'iqra ayesha', 'kamla bibi', 'kashif munir', 'khan salik najeeb', 'khaz ahmed', 'm. haider khan', 'm. mouaaz ranjha', 'maham ibrar', 'mehwish israr', 'minahil zafar', 'mir hamza', 'mohammad hisham raja', 'mohammad hussain', 'muhammad abdullah ansari', 'muhammad ahmad', 'muhammad ahmad bashir', 'muhammad ali', 'muhammad arfat amir', 'muhammad aslam', 'muhammad azeem sarwar', 'muhammad ehtisham', 'muhammad furqan', 'muhammad haseeb hashim', 'muhammad hassaan', 'muhammad hassan', 'muhammad haziq', 'muhammad hunzilah', 'muhammad inaam elahi', 'muhammad mohad', 'muhammad taha nasir', 'muhammad talha', 'muhammad umair aziz', 'muhammad umair ismail', 'muhammad zeeshan', 'muhammed bilal', 'musfirah ehsan', 'nimra riaz', 'rabiyya mir', 'rao usama', 'sadaf', 'saeeed ahmad', 'saif ullah', 'samavia jaffery', 'saqib shahzad', 'shams ul hassan', 'shan yousaf', 'sheikh nauman ahmed', 'sijil jehangir', 'sonia ahmad khan', 'sukaina najm', 'syed fahad ullah', 'syed qasim raza', 'taimoor ahmad khan', 'tanveer hussain', 'umar asif', 'umar tariq', 'umer farooq', 'urwah bin aamer', 'usama shahid', 'warda tu zahra', 'zoha assad', 'zubair khan', 'zunair malik']
     },
     'liaison': {
         'coordinators': ['muhammad humzah zaffar'],
@@ -70,7 +70,7 @@ var TEAMS_DATA = {
     'design': {
         'coordinators': ['mubashir ali'],
         'heads': ['fakhar fatima', 'yousma yousaf'],
-        'members': ['muhammad usman khalid', 'aqsa mushtaq', 'sheikh nauman ahmed', 'talha amjad', 'humair abbas', 'isra imran', 'fasih shaukat', 'sijil jehangir', 'shaharyar sajid', 'hassan sattar', 'dawood mazhar', 'khizer saeed', 'dilawaiz', 'narmeen falak', 'muhammad haziq', 'eman zahra', 'nimra anjum']
+        'members': ['muhammad usman khalid', 'aqsa mushtaq', 'sheikh nauman ahmed', 'talha amjad', 'humair abbas', 'isra imran', 'fasih shaukat', 'sijil jehangir', 'shaharyar sajid', 'hassan sattar', 'dawood mazhar', 'khizer saeed', 'dilawaiz', 'narmeen falak', 'muhammad haziq', 'emaan zahra', 'nimra anjum']
     },
     'finance & purchase': {
         'coordinators': ['hamza ahmed'],
@@ -80,7 +80,7 @@ var TEAMS_DATA = {
     'decoration': {
         'coordinators': ['muhammad umair aziz'],
         'heads': ['nimra riaz', 'bibi ayesha'],
-        'members': ['ahmad hussain', 'aneela riaz', 'huzaifa ahmed', 'linta kamran', 'm.mouaaz ranjha', 'mehwish israr', 'minahil zafar', 'muhammad abdullh jawwad', 'muhammad ali', 'muhammad faisal azam', 'muhammad hassan', 'muhammad taha nasir', 'muhammad talha', 'rao usama', 'taimoor ahmad khan', 'muhammad aslam']
+        'members': ['ahmad hussain', 'aneela riaz', 'huzaifa ahmed', 'linta kamran', 'm. mouaaz ranjha', 'mehwish israr', 'minahil zafar', 'muhammad abdullh jawwad', 'muhammad ali', 'muhammad faisal azam', 'muhammad hassan', 'muhammad taha nasir', 'muhammad talha', 'rao usama', 'taimoor ahmad khan', 'muhammad aslam']
     },
     'carnival': {
         'coordinators': ['ahmad raza'],
@@ -102,12 +102,14 @@ var videoIndex = 0;
 var TAG = '[mobile.js] : ';
 
 $(function() {
-    // console.log(TAG + 'document: starts');
+    console.log(TAG + 'document: starts');
 
     let htmlPath = window.location.href;
-    let startIndex = htmlPath.search('dist/(.)+.html');
+    // let domainName = 'pionpieas.com';
+    let domainName = 'localhost:8080';
+    let startIndex = htmlPath.search(domainName + '/(.)+.html');
     let endIndex = htmlPath.search('.html');
-    currentPage = htmlPath.substring(startIndex + 5, endIndex);
+    currentPage = htmlPath.substring(startIndex + domainName.length + 1, endIndex);
     let navItems = $('#nav-menu a');
     $('.active').removeClass('active');
     for (let i of navItems) {
@@ -116,18 +118,25 @@ $(function() {
         }
     }
 
-    if (currentPage == 'index') {
-        setupCountdown();
-        $('#nav-menu-control').click(function() {
-            // console.log(TAG + 'nav-menu-control click: starts');
-            $('#nav-menu').slideToggle();
-            $('#nav-menu').toggleClass('nav-menu-toggle');
-            // console.log(TAG + 'nav-menu-control click: ends');
-        });
+    console.log(TAG + 'currentPage: ' + currentPage);
 
+    $('#nav-menu-control').click(function() {
+        console.log(TAG + 'nav-menu-control click: starts');
+        $('#nav-menu').slideToggle();
+        $('#nav-menu').toggleClass('nav-menu-toggle');
+        console.log(TAG + 'nav-menu-control click: ends');
+    });
+
+    if (currentPage == 'teams') {
+        console.log('setting up teams.html');
+        createTeamsPage();
+        createTeamsSlider();
+    } else {
+        console.log('setting up index.html');
+        setupCountdown();
         $('#nav-menu a').click(function() {
-            // console.log(TAG + 'nav-menu <a> clicked');
-            // console.log(TAG + $(this).attr('index'));
+            console.log(TAG + 'nav-menu <a> clicked');
+            console.log(TAG + $(this).attr('index'));
             sessionStorage.setItem('indexActive', $(this).attr('index'));
         });
 
@@ -156,68 +165,63 @@ $(function() {
         });
     }
 
-    if (currentPage == 'teams') {
-        createTeamsPage();
-        createTeamsSlider();
-    }
-
-    // console.log(TAG + 'document: ends');
+    console.log(TAG + 'document: ends');
 });
 
 function setupCountdown() {
-    // console.log('countdown starts');
+    console.log('countdown starts');
+    $('#countdown-end-msg').hide();
+    $('#countdown').show();
     window.setInterval(function() {
+        console.log('window.setInterval starts');
         var endTime = new Date(2019, 10, 18);
         var currentTime = new Date();
         var remainingTime = (endTime - currentTime) / 1000;
-        var months = Math.floor(remainingTime / (60 * 60 * 24 * 30));
+        var months = twoChars(Math.floor(remainingTime / (60 * 60 * 24 * 30)));
         remainingTime = remainingTime % (60 * 60 * 24 * 30);
-        var days = Math.floor(remainingTime / (60 * 60 * 24));
+        var days = twoChars(Math.floor(remainingTime / (60 * 60 * 24)));
         remainingTime = remainingTime % (60 * 60 * 24);
-        var hours = Math.floor(remainingTime / (60 * 60));
+        var hours = twoChars(Math.floor(remainingTime / (60 * 60)));
         remainingTime = remainingTime % (60 * 60);
-        var minutes = Math.floor(remainingTime / 60);
+        var minutes = twoChars(Math.floor(remainingTime / 60));
         remainingTime = remainingTime % 60;
-        var seconds = Math.floor(remainingTime);
+        var seconds = twoChars(Math.floor(remainingTime));
         let html = '';
         if (remainingTime > 0) {
-            html += '<table>\n';
-            html += '    <tbody>\n';
-            html += '        <tr>\n';
-            html += '            <td class="col-1">second</td>\n';
-            html += '            <td class="col-2">' + seconds + '</td>\n';
-            html += '        </tr>\n';
-            html += '        <tr>\n';
-            html += '            <td class="col-1">Minute</td>\n';
-            html += '            <td class="col-2">' + minutes + '</td>\n';
-            html += '        </tr>\n';
-            html += '        <tr>\n';
-            html += '            <td class="col-1">Hour</td>\n';
-            html += '            <td class="col-2">' + hours + '</td>\n';
-            html += '        </tr>\n';
-            html += '        <tr>\n';
-            html += '            <td class="col-1">Day</td>\n';
-            html += '            <td class="col-2">' + days + '</td>\n';
-            html += '        </tr>\n';
-            html += '        <tr>\n';
-            html += '            <td class="col-1">Month</td>\n';
-            html += '            <td class="col-2">' + months + '</td>\n';
-            html += '        </tr>\n';
-            html += '    </tbody>\n';
-            html += '</table>\n';
-            $('#countdown').html(html);
+            console.log('changing time');
+            console.log('months' + months);
+            console.log('days' + days);
+            console.log('hours' + hours);
+            console.log('minutes' + minutes);
+            console.log('seconds' + seconds);
+            console.log($('#countdown td#col1').html());
+            console.log($('#countdown td#col2').html());
+            console.log($('#countdown td#col3').html());
+            console.log($('#countdown td#col4').html());
+            console.log($('#countdown td#col5').html());
+            $('#countdown td#col1').html(months);
+            $('#countdown td#col2').html(days);
+            $('#countdown td#col3').html(hours);
+            $('#countdown td#col4').html(minutes);
+            $('#countdown td#col5').html(seconds);
         } else {
-            $('#countdown').html('PION`19 HAS STARTED');
+            $('#countdown-container p').hide();
+            $('#countdown-container #countdown').hide();
+            $('#countdown-container #countdown-end-msg').show();
         }
     }, 1000);
-    // console.log('countdown starts');
+    console.log('countdown starts');
+}
+
+function twoChars(number) {
+    return (('' + number).length == 1) ? '0' + number : '' + number
 }
 
 function createTeamsPage() {
-    // console.log(TAG + 'createTeamsPage: starts');
+    console.log(TAG + 'createTeamsPage: starts');
     let html = '';
     for (let team_name in TEAMS_DATA) {
-        // console.log('createTeamsPage: ' + team_name);
+        console.log('createTeamsPage: ' + team_name);
         let coordinators = TEAMS_DATA[team_name]['coordinators'].sort();
         let heads = TEAMS_DATA[team_name]['heads'].sort();
         let members = TEAMS_DATA[team_name]['members'].sort();
@@ -262,39 +266,39 @@ function createTeamsPage() {
         html += '    </div>\n';
         html += '</section>\n';
     }
-    // console.log('before append');
+    console.log('before append');
     $('#teams').append(html);
-    // console.log('after append');
-    // console.log($('.team-member img'));
+    console.log('after append');
+    console.log($('.team-member img'));
     var error_names = '';
     $('img').on('error', function() {
-        // console.log('error occured');
+        console.log('error occured');
         let path = $(this).attr('src');
         let startIndex = path.search('members/(.)+.jpg');
         let endIndex = path.search('.jpg');
         let name = path.substring(startIndex + 8, endIndex);
         error_names += name + ', ';
-        // console.log(error_names);
+        console.log(error_names);
         $(this).attr('src', 'images/placeholder - 256.jpg');
     });
-    // console.log(TAG + 'createTeamsPage: ends');
+    console.log(TAG + 'createTeamsPage: ends');
 }
 
 function createTeamsSlider() {
-    // console.log('createTeamsSlider: starts');
+    console.log('createTeamsSlider: starts');
     let sections = $('main section');
-    // console.log(sections.length);
+    console.log(sections.length);
 
     let html = '<ul>\n';
     for (let i = 0; i < sections.length; i++) {
-        // console.log(sections[i]);
+        console.log(sections[i]);
         html += '    <li>\n';
         html += '        <span id="tooltip">' + $(sections[i]).attr('id') + '</span>\n';
         html += '        <a href="#' + $(sections[i]).attr('id') + '">•</a>\n';
         html += '    </li>\n';
     }
     html += '</ul>';
-    // console.log(html);
+    console.log(html);
     $('#slider').html(html);
 
     $('#slider li').hover(function() {
@@ -310,5 +314,55 @@ function createTeamsSlider() {
             $('#slider').css('opacity', 0.5);
         }
     });
-    // console.log('createTeamsSlider: ends');
+    console.log('createTeamsSlider: ends');
 }
+
+
+
+
+
+
+
+// html += '<table>\n';
+// html += '    <tbody>\n';
+// html += '        <tr>\n';
+// html += '            <td class="col-2">' + months + '</td>\n';
+// html += '            <td class="col-1">Month</td>\n';
+// html += '        </tr>\n';
+// html += '        <tr>\n';
+// html += '            <td class="col-2">' + days + '</td>\n';
+// html += '            <td class="col-1">Day</td>\n';
+// html += '        </tr>\n';
+// html += '        <tr>\n';
+// html += '            <td class="col-2">' + hours + '</td>\n';
+// html += '            <td class="col-1">Hour</td>\n';
+// html += '        </tr>\n';
+// html += '        <tr>\n';
+// html += '            <td class="col-2">' + minutes + '</td>\n';
+// html += '            <td class="col-1">Minute</td>\n';
+// html += '        </tr>\n';
+// html += '        <tr>\n';
+// html += '            <td class="col-2">' + seconds + '</td>\n';
+// html += '            <td class="col-1">second</td>\n';
+// html += '        </tr>\n';
+// html += '    </tbody>\n';
+// html += '</table>\n';
+
+// html += '<table>\n';
+// html += '    <tbody>\n';
+// html += '        <tr id="row1">\n';
+// html += '            <td>' + twoChars(months) + '</td>\n';
+// html += '            <td>' + twoChars(days) + '</td>\n';
+// html += '            <td>' + twoChars(hours) + '</td>\n';
+// html += '            <td>' + twoChars(minutes) + '</td>\n';
+// html += '            <td>' + twoChars(seconds) + '</td>\n';
+// html += '        </tr>\n';
+// html += '        <tr id="row2">\n';
+// html += '            <td>Month</td>\n';
+// html += '            <td>Day</td>\n';
+// html += '            <td>Hour</td>\n';
+// html += '            <td>Minute</td>\n';
+// html += '            <td>second</td>\n';
+// html += '        </tr>\n';
+// html += '    </tbody>\n';
+// html += '</table>\n';

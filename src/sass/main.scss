@@ -154,31 +154,58 @@ section h1 {
 
 #section-countdown {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #section-countdown #countdown-container {
-    height: 100%;
+    flex: 1 1 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
     text-align: center;
     padding: 32px 8px;
 }
 
-#countdown-container td {
+#countdown-container #countdown,
+#countdown-container #countdown-end-msg {
     border: 1px solid black;
+    border-radius: 100000px;
+    margin-bottom: 32px;
+}
+
+#countdown-container #countdown-end-msg {
+    padding: 32px;
+    color: white;
+    background: var(--color-1);
+}
+
+#countdown-container tr td {
     border-collapse: collapse;
-    padding: 16px;
+    border-right: 1px solid black;
+    text-align: center;
+    padding: 0px 16px;
 }
 
-#countdown-container .col-1 {
-    text-align: right;
+#countdown-container tr td:last-child {
+    border-right: none;
 }
 
-#countdown-container .col-2 {
-    text-align: left;
+#countdown-container p {
+    font-size: 26px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+#countdown-container #row1 {
+    font-size: 20px;
+}
+
+#countdown-container #row2 {
+    font-size: 12px;
 }
 
 #section-past-info #info-container {
@@ -189,6 +216,18 @@ section h1 {
     justify-content: center;
     align-items: center;
     padding: 32px 0px;
+}
+
+@media (min-width: 600px) {
+    #countdown-container p {
+        font-size: 4vw;
+    }
+    #countdown-container #row1 {
+        font-size: 4vw;
+    }
+    #countdown-container #row2 {
+        font-size: 2vw;
+    }
 }
 
 #info-container .info-card {
@@ -292,14 +331,6 @@ section h1 {
     overflow: visible;
 }
 
-// #section-sponsorship h1 {
-//     text-align: center;
-//     margin: 0px;
-//     padding: 16px;
-//     width: 100%;
-//     background: linear-gradient(30deg, var(--color-8), var(--color-7));
-//     color: black;
-// }
 #section-sponsorship #sponsorship-container {
     display: flex;
     flex-direction: row;
