@@ -2,10 +2,6 @@ import $ from 'jquery';
 import 'popper.js';
 import 'bootstrap';
 
-// var $ = require('jquery');
-// require('popper.js');
-// require('bootstrap');
-
 var TEAMS_DATA = {
     'website': {
         'coordinators': ['ali nauroze', 'moazin khatri'],

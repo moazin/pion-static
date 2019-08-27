@@ -94,8 +94,7 @@
 .team-member img {
     width: 100%;
     height: 256px;
-    object-fit: contain;
-    // background: url('../images/placeholder - 256.jpg') no-repeat scroll 0 0;
+    object-fit: cover;
 }
 
 .team-member .member-name {
