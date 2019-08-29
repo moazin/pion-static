@@ -65,7 +65,7 @@ var TEAMS_DATA = {
     },
     'design': {
         'coordinators': ['mubashir ali'],
-        'heads': ['fakhar fatima', 'yousma yousaf'],
+        'heads': ['hassan sattar', 'fakhar fatima', 'yousma yousaf'],
         'members': ['muhammad usman khalid', 'aqsa mushtaq', 'sheikh nauman ahmed', 'talha amjad', 'humair abbas', 'isra imran', 'fasih shaukat', 'sijil jehangir', 'shaharyar sajid', 'hassan sattar', 'dawood mazhar', 'khizer saeed', 'dilawaiz', 'narmeen falak', 'muhammad haziq', 'emaan zahra', 'nimra anjum']
     },
     'finance & purchase': {
@@ -90,6 +90,75 @@ var TEAMS_DATA = {
     },
 };
 
+var MODULES_DATA = {
+    'module-01': {
+        'title': 'module name 1',
+        'head': {
+            'name': 'module head name',
+            'contact': '0331-1234567'
+        },
+        'category': 'category',
+        'fee': 'Rs. ####',
+        'minimum members': '1',
+        'maximum members': '3',
+        'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+        'rules': [
+            'Rule#1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+        ]
+    },
+    'module-02': {
+        'title': 'module name 2',
+        'head': {
+            'name': 'module head name',
+            'contact': '0331-1234567'
+        },
+        'category': 'category',
+        'fee': 'Rs. ####',
+        'minimum members': '1',
+        'maximum members': '3',
+        'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+        'rules': [
+            'Rule#1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+            'Rule#2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+        ]
+    },
+    'module-03': {
+        'title': 'module name 3',
+        'head': {
+            'name': 'module head name',
+            'contact': '0331-1234567'
+        },
+        'category': 'category',
+        'fee': 'Rs. ####',
+        'minimum members': '1',
+        'maximum members': '3',
+        'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+        'rules': [
+            'Rule#1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+            'Rule#2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+            'Rule#3: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+        ]
+    },
+    'module-04': {
+        'title': 'module name 13',
+        'head': {
+            'name': 'module head name',
+            'contact': '0331-1234567'
+        },
+        'category': 'category',
+        'fee': 'Rs. ####',
+        'minimum members': '1',
+        'maximum members': '3',
+        'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+        'rules': [
+            'Rule#1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+            'Rule#2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+            'Rule#3: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+            'Rule#4: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem consequuntur deleniti voluptas inventore earum nam, cum vitae atque cumque optio corporis reiciendis neque ducimus culpa dolorum, at sunt aliquam.',
+        ]
+    },
+};
+
 var currentPage = '';
 var images = ['images/mic-01.jpg', 'images/mic-02.jpg', 'images/mic-03.jpg'];
 var imageIndex = 0;
@@ -106,13 +175,7 @@ $(function() {
     let startIndex = htmlPath.search(domainName + '/(.)+.html');
     let endIndex = htmlPath.search('.html');
     currentPage = htmlPath.substring(startIndex + domainName.length + 1, endIndex);
-    let navItems = $('#nav-menu a');
     $('.active').removeClass('active');
-    for (let i of navItems) {
-        if ($(i).attr('fileName') == currentPage) {
-            $(i).addClass('active');
-        }
-    }
 
     console.log(TAG + 'currentPage: ' + currentPage);
 
@@ -123,94 +186,162 @@ $(function() {
         console.log(TAG + 'nav-menu-control click: ends');
     });
 
-    if (currentPage == 'teams') {
-        console.log('setting up teams.html');
-        createTeamsPage();
-        createTeamsSlider();
-    } else {
-        console.log('setting up index.html');
-        setupCountdown();
-        $('#nav-menu a').click(function() {
-            console.log(TAG + 'nav-menu <a> clicked');
-            console.log(TAG + $(this).attr('index'));
-            sessionStorage.setItem('indexActive', $(this).attr('index'));
-        });
+    switch (currentPage) {
+        case 'about-us':
+            console.log(TAG + 'case about-us: setting up about-us.html');
+            $('#nav-menu a[fileName="about-us"]').addClass('active');
+            break;
+        case 'modules':
+            console.log(TAG + 'case modules: setting up modules.html');
+            $('#nav-menu a[fileName="modules"]').addClass('active');
+            createModulesPage();
+            $('#search-bar #search-input').keyup(function() {
+                console.log('search-input keypress: starts');
+                let searchString = $('#search-bar #search-input').val();
+                console.log('search-input keypress: ' + searchString);
+                console.log(searchString.length);
+                if (searchString.length > 0) {
+                    let modulesList = $('#modules-list .module-card');
+                    console.log(modulesList.length);
+                    for (let module of modulesList) {
+                        let id = $(module).attr('id');
+                        let searchIndex = MODULES_DATA[id]['title'].search(searchString);
+                        if (searchIndex >= 0) {
+                            console.log('showing -> ' + MODULES_DATA[id]['title']);
+                            $(module).show();
+                        } else {
+                            console.log('hiding -> ' + MODULES_DATA[id]['title']);
+                            $(module).hide();
+                        }
+                    }
+                } else {
+                    $('#modules-list .module-card').show();
+                }
+                console.log('search-input keypress: ends');
+            });
+            $('#module-detail-container #module-detail-card').scroll(function() {
+                $('#module-detail-card img').css('top', this.scrollTop);
+            });
+            break;
+        case 'timeline':
+            console.log(TAG + 'case timeline: setting up timeline.html');
+            $('#nav-menu a[fileName="timeline"]').addClass('active');
+            break;
+        case 'teams':
+            console.log(TAG + 'case teams: setting up teams.html');
+            $('#nav-menu a[fileName="teams"]').addClass('active');
+            createTeamsPage();
+            createTeamsSlider();
+            break;
+        case 'gallery':
+            console.log(TAG + 'case gallery: setting up gallery.html');
+            $('#nav-menu a[fileName="gallery"]').addClass('active');
+            break;
+        case 'contact-us':
+            console.log(TAG + 'case contact-us: setting up contact-us.html');
+            $('#nav-menu a[fileName="contact-us"]').addClass('active');
+            break;
+        default:
+            console.log(TAG + 'case default: setting up index.html');
+            $('#nav-menu a[fileName="index"]').addClass('active');
+            setupCountdown();
+            $('#nav-menu a').click(function() {
+                console.log(TAG + 'nav-menu <a> clicked');
+                console.log(TAG + $(this).attr('index'));
+                sessionStorage.setItem('indexActive', $(this).attr('index'));
+            });
 
-        $('#section-image-slider .slide-left-button').click(function() {
-            imageIndex = (imageIndex - 1) % images.length;
-            imageIndex = (imageIndex < 0) ? imageIndex + images.length : imageIndex;
-            $('#section-image-slider img').attr('src', images[imageIndex]);
-        });
+            $('#section-image-slider .slide-left-button').click(function() {
+                imageIndex = (imageIndex - 1) % images.length;
+                imageIndex = (imageIndex < 0) ? imageIndex + images.length : imageIndex;
+                $('#section-image-slider img').attr('src', images[imageIndex]);
+            });
 
-        $('#section-image-slider .slide-right-button').click(function() {
-            imageIndex = (imageIndex + 1) % images.length;
-            $('#section-image-slider img').attr('src', images[imageIndex]);
-        });
+            $('#section-image-slider .slide-right-button').click(function() {
+                imageIndex = (imageIndex + 1) % images.length;
+                $('#section-image-slider img').attr('src', images[imageIndex]);
+            });
 
-        $('#section-video-slider .slide-left-button').click(function() {
-            videoIndex = (videoIndex - 1) % videos.length;
-            videoIndex = (videoIndex < 0) ? videoIndex + videos.length : videoIndex;
-            $('#section-video-slider video source').attr('src', videos[videoIndex]);
-            $('#section-video-slider video')[0].load();
-        });
+            $('#section-video-slider .slide-left-button').click(function() {
+                videoIndex = (videoIndex - 1) % videos.length;
+                videoIndex = (videoIndex < 0) ? videoIndex + videos.length : videoIndex;
+                $('#section-video-slider video source').attr('src', videos[videoIndex]);
+                $('#section-video-slider video')[0].load();
+            });
 
-        $('#section-video-slider .slide-right-button').click(function() {
-            videoIndex = (videoIndex + 1) % videos.length;
-            $('#section-video-slider video source').attr('src', videos[videoIndex]);
-            $('#section-video-slider video')[0].load();
-        });
+            $('#section-video-slider .slide-right-button').click(function() {
+                videoIndex = (videoIndex + 1) % videos.length;
+                $('#section-video-slider video source').attr('src', videos[videoIndex]);
+                $('#section-video-slider video')[0].load();
+            });
+            break;
     }
+
+    if (currentPage == 'teams') {} else {}
 
     console.log(TAG + 'document: ends');
 });
 
-function setupCountdown() {
-    console.log('countdown starts');
-    $('#countdown-end-msg').hide();
-    $('#countdown').show();
-    window.setInterval(function() {
-        console.log('window.setInterval starts');
-        var endTime = new Date(2019, 10, 18);
-        var currentTime = new Date();
-        var remainingTime = (endTime - currentTime) / 1000;
-        var months = twoChars(Math.floor(remainingTime / (60 * 60 * 24 * 30)));
-        remainingTime = remainingTime % (60 * 60 * 24 * 30);
-        var days = twoChars(Math.floor(remainingTime / (60 * 60 * 24)));
-        remainingTime = remainingTime % (60 * 60 * 24);
-        var hours = twoChars(Math.floor(remainingTime / (60 * 60)));
-        remainingTime = remainingTime % (60 * 60);
-        var minutes = twoChars(Math.floor(remainingTime / 60));
-        remainingTime = remainingTime % 60;
-        var seconds = twoChars(Math.floor(remainingTime));
-        let html = '';
-        if (remainingTime > 0) {
-            console.log('changing time');
-            console.log('months' + months);
-            console.log('days' + days);
-            console.log('hours' + hours);
-            console.log('minutes' + minutes);
-            console.log('seconds' + seconds);
-            console.log($('#countdown td#col1').html());
-            console.log($('#countdown td#col2').html());
-            console.log($('#countdown td#col3').html());
-            console.log($('#countdown td#col4').html());
-            console.log($('#countdown td#col5').html());
-            $('#countdown td#col1').html(months);
-            $('#countdown td#col2').html(days);
-            $('#countdown td#col3').html(hours);
-            $('#countdown td#col4').html(minutes);
-            $('#countdown td#col5').html(seconds);
-        } else {
-            $('#countdown-container p').hide();
-            $('#countdown-container #countdown').hide();
-            $('#countdown-container #countdown-end-msg').show();
-        }
-    }, 1000);
-    console.log('countdown starts');
+function createModulesPage() {
+    console.log(TAG + 'createModulesPage: starts');
+    let html = '';
+    let clickedCard;
+    for (let module_id in MODULES_DATA) {
+        let module = MODULES_DATA[module_id];
+        html += '<div id="' + module_id + '" class="module-card">\n';
+        html += '    <img class="module-image" src="images/placeholder - 256.jpg">\n';
+        html += '    <p class="title">' + module['title'] + '</p>\n';
+        html += '    <p class="head-name">' + module['head']['name'] + '</p>\n';
+        html += '    <p class="head-contact">' + module['head']['contact'] + '</p>\n';
+        html += '</div>\n';
+    }
+    $('#modules #modules-list').html(html);
+    $('#modules-list .module-card').click(function() {
+        console.log('module-card click: starts');
+        showModuleDetail(this);
+        clickedCard = this;
+        console.log('module-card click: ends');
+    });
+    $('#module-detail-container #container-close').click(function() {
+        console.log('container-close clicked');
+        $('#module-detail-container').css('visibility', 'hidden');
+    });
+    $('#module-detail-container #module-previous').click(function() {
+        console.log('module-previous clicked');
+        showModuleDetail($(clickedCard).prev());
+        clickedCard = $(clickedCard).prev();
+    });
+    $('#module-detail-container #module-next').click(function() {
+        console.log('module-next clicked');
+        showModuleDetail($(clickedCard).next());
+        clickedCard = $(clickedCard).next();
+    });
+    console.log(TAG + 'createModulesPage: ends');
 }
 
-function twoChars(number) {
-    return (('' + number).length == 1) ? '0' + number : '' + number
+function showModuleDetail(inputModule) {
+    console.log('showModuleDetail: starts');
+    console.log(inputModule);
+    let clickedModuleId = $(inputModule).attr('id');
+    let module = MODULES_DATA[clickedModuleId];
+    let moduleDetails = '';
+    moduleDetails += '<p id="module-title"><strong>Title: </strong>' + module['title'] + '</p>\n';
+    moduleDetails += '<p id="module-head-name"><strong>Head: </strong>' + module['head']['name'] + '</p>\n';
+    moduleDetails += '<p id="module-head-contact"><strong>Contact: </strong>' + module['head']['contact'] + '</p>\n';
+    moduleDetails += '<p id="module-category"><strong>Category: </strong>' + module['category'] + '</p>\n';
+    moduleDetails += '<p id="module-fee"><strong>Fee: </strong>' + module['fee'] + '</p>\n';
+    moduleDetails += '<p id="minimum-members"><strong>Minimum Members: </strong>' + module['minimum members'] + '</p>\n';
+    moduleDetails += '<p id="maximum-members"><strong>Maximum Members: </strong>' + module['maximum members'] + '</p>\n';
+    moduleDetails += '<p id="module-description"><strong>Description: </strong>' + module['description'] + '</p>\n';
+    moduleDetails += '<p><strong>Rules: </strong></p>\n';
+    moduleDetails += '<ul id="module-rules">\n';
+    for (let rule of module['rules']) {
+        moduleDetails += '    <li>' + rule + '</li>\n';
+    }
+    moduleDetails += '</ul>\n';
+    $('#module-detail-container #module-detail').html(moduleDetails);
+    $('#module-detail-container').css('visibility', 'visible');
+    console.log('showModuleDetail: ends');
 }
 
 function createTeamsPage() {
@@ -313,52 +444,51 @@ function createTeamsSlider() {
     console.log('createTeamsSlider: ends');
 }
 
+function setupCountdown() {
+    console.log('countdown starts');
+    $('#countdown-end-msg').hide();
+    $('#countdown').show();
+    window.setInterval(function() {
+        console.log('window.setInterval starts');
+        var endTime = new Date(2019, 10, 18);
+        var currentTime = new Date();
+        var remainingTime = (endTime - currentTime) / 1000;
+        var months = twoChars(Math.floor(remainingTime / (60 * 60 * 24 * 30)));
+        remainingTime = remainingTime % (60 * 60 * 24 * 30);
+        var days = twoChars(Math.floor(remainingTime / (60 * 60 * 24)));
+        remainingTime = remainingTime % (60 * 60 * 24);
+        var hours = twoChars(Math.floor(remainingTime / (60 * 60)));
+        remainingTime = remainingTime % (60 * 60);
+        var minutes = twoChars(Math.floor(remainingTime / 60));
+        remainingTime = remainingTime % 60;
+        var seconds = twoChars(Math.floor(remainingTime));
+        let html = '';
+        if (remainingTime > 0) {
+            console.log('changing time');
+            console.log('months' + months);
+            console.log('days' + days);
+            console.log('hours' + hours);
+            console.log('minutes' + minutes);
+            console.log('seconds' + seconds);
+            console.log($('#countdown td#col1').html());
+            console.log($('#countdown td#col2').html());
+            console.log($('#countdown td#col3').html());
+            console.log($('#countdown td#col4').html());
+            console.log($('#countdown td#col5').html());
+            $('#countdown td#col1').html(months);
+            $('#countdown td#col2').html(days);
+            $('#countdown td#col3').html(hours);
+            $('#countdown td#col4').html(minutes);
+            $('#countdown td#col5').html(seconds);
+        } else {
+            $('#countdown-container p').hide();
+            $('#countdown-container #countdown').hide();
+            $('#countdown-container #countdown-end-msg').show();
+        }
+    }, 1000);
+    console.log('countdown starts');
+}
 
-
-
-
-
-
-// html += '<table>\n';
-// html += '    <tbody>\n';
-// html += '        <tr>\n';
-// html += '            <td class="col-2">' + months + '</td>\n';
-// html += '            <td class="col-1">Month</td>\n';
-// html += '        </tr>\n';
-// html += '        <tr>\n';
-// html += '            <td class="col-2">' + days + '</td>\n';
-// html += '            <td class="col-1">Day</td>\n';
-// html += '        </tr>\n';
-// html += '        <tr>\n';
-// html += '            <td class="col-2">' + hours + '</td>\n';
-// html += '            <td class="col-1">Hour</td>\n';
-// html += '        </tr>\n';
-// html += '        <tr>\n';
-// html += '            <td class="col-2">' + minutes + '</td>\n';
-// html += '            <td class="col-1">Minute</td>\n';
-// html += '        </tr>\n';
-// html += '        <tr>\n';
-// html += '            <td class="col-2">' + seconds + '</td>\n';
-// html += '            <td class="col-1">second</td>\n';
-// html += '        </tr>\n';
-// html += '    </tbody>\n';
-// html += '</table>\n';
-
-// html += '<table>\n';
-// html += '    <tbody>\n';
-// html += '        <tr id="row1">\n';
-// html += '            <td>' + twoChars(months) + '</td>\n';
-// html += '            <td>' + twoChars(days) + '</td>\n';
-// html += '            <td>' + twoChars(hours) + '</td>\n';
-// html += '            <td>' + twoChars(minutes) + '</td>\n';
-// html += '            <td>' + twoChars(seconds) + '</td>\n';
-// html += '        </tr>\n';
-// html += '        <tr id="row2">\n';
-// html += '            <td>Month</td>\n';
-// html += '            <td>Day</td>\n';
-// html += '            <td>Hour</td>\n';
-// html += '            <td>Minute</td>\n';
-// html += '            <td>second</td>\n';
-// html += '        </tr>\n';
-// html += '    </tbody>\n';
-// html += '</table>\n';
+function twoChars(number) {
+    return (('' + number).length == 1) ? '0' + number : '' + number
+}
