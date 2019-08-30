@@ -170,13 +170,18 @@ $(function() {
     console.log(TAG + 'document: starts');
 
     let htmlPath = window.location.href;
-    // let domainName = 'pionpieas.com';
-    let domainName = 'localhost:8080';
+    let domainName = 'pionpieas.com';
+    // let domainName = 'localhost:8080';
     let startIndex = htmlPath.search(domainName + '/(.)+.html');
     let endIndex = htmlPath.search('.html');
     currentPage = htmlPath.substring(startIndex + domainName.length + 1, endIndex);
     $('.active').removeClass('active');
 
+    console.log(TAG + 'htmlPath: ' + htmlPath);
+    console.log(TAG + 'domainName: ' + domainName);
+    console.log(TAG + 'domainName.length: ' + domainName.length);
+    console.log(TAG + 'startIndex: ' + startIndex);
+    console.log(TAG + 'endIndex: ' + endIndex);
     console.log(TAG + 'currentPage: ' + currentPage);
 
     $('#nav-menu-control').click(function() {
@@ -464,17 +469,17 @@ function setupCountdown() {
         var seconds = twoChars(Math.floor(remainingTime));
         let html = '';
         if (remainingTime > 0) {
-            console.log('changing time');
-            console.log('months' + months);
-            console.log('days' + days);
-            console.log('hours' + hours);
-            console.log('minutes' + minutes);
-            console.log('seconds' + seconds);
-            console.log($('#countdown td#col1').html());
-            console.log($('#countdown td#col2').html());
-            console.log($('#countdown td#col3').html());
-            console.log($('#countdown td#col4').html());
-            console.log($('#countdown td#col5').html());
+            // console.log('changing time');
+            // console.log('months' + months);
+            // console.log('days' + days);
+            // console.log('hours' + hours);
+            // console.log('minutes' + minutes);
+            // console.log('seconds' + seconds);
+            // console.log($('#countdown td#col1').html());
+            // console.log($('#countdown td#col2').html());
+            // console.log($('#countdown td#col3').html());
+            // console.log($('#countdown td#col4').html());
+            // console.log($('#countdown td#col5').html());
             $('#countdown td#col1').html(months);
             $('#countdown td#col2').html(days);
             $('#countdown td#col3').html(hours);
