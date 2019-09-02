@@ -11,12 +11,12 @@ var TEAMS_DATA = {
     'management': {
         'coordinators': ['muneeb ur rehman'],
         'heads': ['dawood mazhar', 'khan salik najeeb', 'daud shafqat'],
-        'members': ['aamir abbas', 'aamna khan', 'abdul hannan', 'abdul moeez', 'abdul rafay', 'abdul samad', 'ahmed dar', 'ahmad hassan', 'ahmad hussain', 'ahmad kamal baig', 'aleena ajaz', 'ali amin', 'ali hassan', 'aneela riaz', 'aqsa mushtaq', 'asif mahmood', 'ayatullah saifullah', 'ayesha salar', 'bibi ayisha', 'bilal ahmad', 'emaan zahra', 'faiz ahmed', 'fareed hussain', 'fasih shaukat', 'hajrah rameen', 'hammad ali', 'hassan abbas', 'hassan askary', 'huzaifa nadeem', 'inaam ullah', 'iqra ayesha', 'kamla bibi', 'kashif munir', 'khan salik najeeb', 'khaz ahmed', 'm. haider khan', 'm. mouaaz ranjha', 'maham ibrar', 'mehwish israr', 'minahil zafar', 'mir hamza', 'mohammad hisham raja', 'mohammad hussain', 'muhammad abdullah ansari', 'muhammad ahmad', 'muhammad ahmad bashir', 'muhammad ali', 'muhammad arfat amir', 'muhammad aslam', 'muhammad azeem sarwar', 'muhammad ehtisham', 'muhammad furqan', 'muhammad haseeb hashim', 'muhammad hassaan', 'muhammad hassan', 'muhammad haziq', 'muhammad hunzilah', 'muhammad inaam elahi', 'muhammad mohad', 'muhammad taha nasir', 'muhammad talha', 'muhammad umair aziz', 'muhammad umair ismail', 'muhammad zeeshan', 'muhammed bilal', 'musfirah ehsan', 'nimra riaz', 'rabiyya mir', 'rao usama', 'sadaf', 'saeeed ahmad', 'saif ullah', 'samavia jaffery', 'saqib shahzad', 'shams ul hassan', 'shan yousaf', 'sheikh nauman ahmed', 'sijil jehangir', 'sonia ahmad khan', 'sukaina najm', 'syed fahad ullah', 'syed qasim raza', 'taimoor ahmad khan', 'tanveer hussain', 'umar asif', 'umar tariq', 'umer farooq', 'urwah bin aamer', 'usama shahid', 'warda tu zahra', 'zoha assad', 'zubair khan', 'zunair malik']
+        'members': ['aamir abbas', 'aamna khan', 'abdul hannan', 'abdul moeez', 'abdul rafay', 'abdul samad', 'ahmed dar', 'ahmad hassan', 'ahmad hussain', 'ahmad kamal baig', 'aleena ajaz', 'ali amin', 'ali hassan', 'aneela riaz', 'aqsa mushtaq', 'asif mahmood', 'ayatullah', 'ayesha salar', 'bibi ayisha', 'bilal ahmad', 'emaan zahra', 'faiz ahmed', 'fareed hussain', 'fasih shaukat', 'hajrah rameen', 'hammad ali', 'hassan abbas', 'hassan askary', 'huzaifa nadeem', 'inaam ullah', 'iqra ayesha', 'kamla bibi', 'kashif munir', 'khan salik najeeb', 'khaz ahmed', 'm. haider khan', 'm. mouaaz ranjha', 'maham ibrar', 'mehwish israr', 'minahil zafar', 'mir hamza', 'mohammad hisham raja', 'mohammad hussain', 'muhammad abdullah ansari', 'muhammad ahmad', 'mohammad ahmad bashir', 'muhammad ali', 'muhammad arfat amir', 'muhammad aslam', 'muhammad azeem sarwar', 'muhammad ehtisham', 'muhammad furqan', 'muhammad haseeb hashim', 'muhammad hassaan', 'muhammad hassan', 'muhammad haziq', 'muhammad hunzilah', 'muhammad inaam elahi', 'muhammad mohad', 'muhammad taha nasir', 'muhammad talha', 'muhammad umair aziz', 'umair ismail', 'muhammad zeeshan', 'muhammed bilal', 'musfirah ehsan', 'nimra riaz', 'rabiyya mir', 'rao usama', 'sadaf rehmat', 'saeed ahmad', 'saif ullah', 'samavia jaffery', 'saqib shahzad', 'shams ul hassan', 'shan yousaf', 'sheikh nauman ahmed', 'sijil jehangir', 'sonia ahmad khan', 'sukaina najm', 'syed fahad ullah', 'syed qasim raza', 'taimoor ahmad khan', 'tanveer hussain', 'umar asif', 'umar tariq', 'umer farooq', 'urwah bin aamer', 'usama shahid', 'warda tu zahra', 'zoha assad', 'zubair khan', 'zunair malik']
     },
     'liaison': {
         'coordinators': ['muhammad humzah zaffar'],
         'heads': ['muhammad obaidullah', 'rabiyya mir'],
-        'members': ['abdul hannan', 'abdul moeez', 'abdul rehman', 'abdur rehman shamsi', 'ahmed dar', 'ali amin', 'ali hassan', 'asma mohsin', 'ayesha mannan', 'dilawaiz', 'emaan zahra', 'faizan ahmad', 'furqan shaikh', 'hajrah rameen', 'hamza irshad', 'huzaifa nadeem', 'ihtisham muhammad', 'isra imran', 'junaid rehman', 'kamla bibi', 'khaz ahmed', 'maham ibrar', 'mishal fatima', 'mohammad hisham raja', 'mohammad hussain', 'muhammad abdullh jawwad', 'muhammad ahmad bashir', 'muhammad arfat amir', 'muhammad dawood bashir', 'muhammad faisal azam', 'muhammad fakhar', 'muhammad hassaan', 'muhammad hassan khan', 'muhammad haziq', 'muhammad sheraz aamir', 'muhammad umair iftikhar', 'muhammad waleed naeem', 'muhammed bilal', 'osama khalid', 'samavia jaffery', 'siddiqua farooq', 'sumama masood', 'syed afnan gillani', 'syed muhammad haider abbas', 'syed qasim raza', 'umer farooq', 'waleed umer', 'hamza atiq', 'aamir abbas', 'iqra ayesha', 'muhammad ahmad', 'muhammad aslam', 'muhammad ehtisham', 'muhammad umair ismail', 'shams ul hassan', 'sonia ahmad khan', 'ammar mukhtar']
+        'members': ['abdul hannan', 'abdul moeez', 'abdul rehman', 'abdur rehman shamsi', 'ahmed dar', 'ali amin', 'ali hassan', 'asma mohsin', 'ayesha mannan', 'dilawaiz', 'emaan zahra', 'faizan ahmad', 'furqan shaikh', 'hajrah rameen', 'hamza irshad', 'huzaifa nadeem', 'ihtisham muhammad', 'isra imran', 'junaid rehman', 'kamla bibi', 'khaz ahmed', 'maham ibrar', 'mishal fatima', 'mohammad hisham raja', 'mohammad hussain', 'muhammad abdullh jawwad', 'mohammad ahmad bashir', 'muhammad arfat amir', 'muhammad dawood bashir', 'muhammad faisal azam', 'muhammad fakhar', 'muhammad hassaan', 'muhammad hassan khan', 'muhammad haziq', 'muhammad sheraz aamir', 'umair iftikhar', 'muhammad waleed naeem', 'muhammed bilal', 'osama khalid', 'samavia jaffery', 'siddiqua farooq', 'sumama masood', 'syed afnan gillani', 'syed muhammad haider abbas', 'syed qasim raza', 'umer farooq', 'waleed umer', 'hamza atiq', 'aamir abbas', 'iqra ayesha', 'muhammad ahmad', 'muhammad aslam', 'muhammad ehtisham', 'umair ismail', 'shams ul hassan', 'sonia ahmad khan', 'ammar mukhtar']
     },
     'guest protocol': {
         'coordinators': ['abdul wahab nasir', 'maham saeed'],
@@ -31,12 +31,12 @@ var TEAMS_DATA = {
     'marketing & promotion': {
         'coordinators': ['ahsan mukhtar'],
         'heads': ['ali raza', 'junaid rehman'],
-        'members': ['ahmad ghufran', 'ajmal shahzad', 'moeeze hassan', 'muhammad adil', 'nabeel ahmed', 'muhammad hassan khan', 'muhammad hunzilah', 'ahmad sheikh', 'usama shahid', 'muhammad fakhar', 'anas zohrab', 'hassan askary', 'mubashir ali', 'abdul wahab nasir', 'hamza tahir', 'ammar mukhtar']
+        'members': ['ahmad ghufran', 'ajmal shahzad', 'moeeze hassan', 'muhammad adil', 'nabeel ahmed', 'muhammad hassan khan', 'muhammad hunzilah', 'usama shahid', 'muhammad fakhar', 'anas zohrab', 'hassan askary', 'mubashir ali', 'abdul wahab nasir', 'hamza tahir', 'ammar mukhtar']
     },
     'security': {
         'coordinators': ['abdul ahad'],
         'heads': ['aamir abbas', 'waleed akhtar'],
-        'members': ['aroosha pervaiz', 'abdur rahman', 'muhammad ashhab khan', 'muhammad abdullah ansari', 'umar shehzad', 'asad ali', 'hamza atiq', 'faiz ahmed', 'fareed hussain', 'tanveer hussain', 'abdullah ahmad', 'muhammad zeeshan', 'muhammad sabeeh', 'usama shahid', 'osama khalid', 'muhammad farrukh irfan', 'muhammad haseeb hashim', 'ihtisham muhammad']
+        'members': ['aroosha pervaiz', 'abdur rahman', 'muhammad ashhab khan', 'muhammad abdullah ansari', 'umar shahzad', 'asad ali', 'hamza atiq', 'faiz ahmed', 'fareed hussain', 'tanveer hussain', 'abdullah ahmad', 'muhammad zeeshan', 'muhammad sabeeh', 'usama shahid', 'osama khalid', 'muhammad farrukh irfan', 'muhammad haseeb hashim', 'ihtisham muhammad']
     },
     'messing': {
         'coordinators': ['assad sultan'],
@@ -46,7 +46,7 @@ var TEAMS_DATA = {
     'photography': {
         'coordinators': ['ayesha ali'],
         'heads': ['sarmad salman', 'bilal ahmad'],
-        'members': ['aamna khan', 'abdul samad', 'adil tiwana', 'ahmed abdullah', 'ayesha mannan', 'fakhar fatima', 'hamza irshad', 'hamza shabeer', 'hassan abbas', 'muhammad hassan khan', 'irtza ahmed', 'muhammad umair iftikhar', 'muhammad zain rehman', 'siddiqua farooq', 'tehreem hussain', 'marwa madni', 'muhammad sabeeh', 'muhammad hassan', 'muhammad hassaan', 'narmeen falak', 'ahsan mukhtar', 'zunnayyara khalid']
+        'members': ['aamna khan', 'abdul samad', 'adil tiwana', 'ahmed abdullah', 'ayesha mannan', 'fakhar fatima', 'hamza irshad', 'hamza shabeer', 'hassan abbas', 'muhammad hassan khan', 'irtaza ahmad', 'umair iftikhar', 'zain rehman', 'siddiqua farooq', 'tehreem hussain', 'marwa madni', 'muhammad sabeeh', 'muhammad hassan', 'muhammad hassaan', 'narmeen falak', 'ahsan mukhtar', 'zunnayyara khalid']
     },
     'accommodation': {
         'coordinators': ['ajmal shahzad', 'saleha mushtaq'],
@@ -56,7 +56,7 @@ var TEAMS_DATA = {
     'documentation': {
         'coordinators': ['minhaj ansari', 'amina tabassum'],
         'heads': ['ahmed dar', 'ammar mukhtar'],
-        'members': ['abdul wahab nasir', 'furqan shaikh', 'muhammad mohad', 'tehreem hussain', 'usama shahid', 'huzaifa ahmed', 'muhammad furqan', 'rana gufran', 'umar shehzad', 'waleed umer', 'zubair khan', 'shazil anjum', 'dilawaiz', 'saeeed ahmad', 'faiz ahmed', 'm. haider khan', 'minahil zafar', 'muhammad ahmad bashir', 'muhammad hunzilah ahmad sheikh', 'musfirah ehsan', 'samavia jaffery', 'wasif jan', 'junaid rehman']
+        'members': ['abdul wahab nasir', 'furqan shaikh', 'muhammad mohad', 'tehreem hussain', 'usama shahid', 'huzaifa ahmed', 'muhammad furqan', 'rana gufran', 'umar shahzad', 'waleed umer', 'zubair khan', 'shazil anjum', 'dilawaiz', 'saeed ahmad', 'faiz ahmed', 'm. haider khan', 'minahil zafar', 'mohammad ahmad bashir', 'muhammad hunzilah', 'musfirah ehsan', 'samavia jaffery', 'wasif jan', 'junaid rehman']
     },
     'transport': {
         'coordinators': ['muhammad hassan'],
@@ -71,7 +71,7 @@ var TEAMS_DATA = {
     'finance & purchase': {
         'coordinators': ['hamza ahmed'],
         'heads': ['osama khalid', 'rana gufran'],
-        'members': ['usama shahid', 'faraaz muhammad khan', 'hamza irshad', 'muhammad mohad', 'sadaf', 'ruman tahir', 'mohammad sanaullah', 'maham saeed', 'faisal', 'muhammad furqan', 'ammar mukhtar', 'hurairah javed', 'khaz ahmed']
+        'members': ['usama shahid', 'faraaz muhammad khan', 'hamza irshad', 'muhammad mohad', 'sadaf rehmat', 'ruman tahir', 'mohammad sanaullah', 'maham saeed', 'faisal', 'muhammad furqan', 'ammar mukhtar', 'hurairah javed', 'khaz ahmed']
     },
     'decoration': {
         'coordinators': ['muhammad umair aziz'],
@@ -170,8 +170,8 @@ $(function() {
     console.log(TAG + 'document: starts');
 
     let htmlPath = window.location.href;
-    let domainName = 'pionpieas.com';
-    // let domainName = 'localhost:8080';
+    // let domainName = 'pionpieas.com';
+    let domainName = 'localhost:8080';
     let startIndex = htmlPath.search(domainName + '/(.)+.html');
     let endIndex = htmlPath.search('.html');
     currentPage = htmlPath.substring(startIndex + domainName.length + 1, endIndex);
