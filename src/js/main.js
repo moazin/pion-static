@@ -357,10 +357,10 @@ function createTeamsPage() {
         let coordinators = TEAMS_DATA[team_name]['coordinators'].sort();
         let heads = TEAMS_DATA[team_name]['heads'].sort();
         let members = TEAMS_DATA[team_name]['members'].sort();
+
         html += '<section id="' + team_name + '" class="team-container">\n';
         html += '    <h1>Team ' + team_name + '</h1>\n';
         html += '    <div class="members-container">\n';
-
         if (coordinators) {
             html += '        <div class="coordinators">\n';
             for (let name of coordinators) {
@@ -394,24 +394,21 @@ function createTeamsPage() {
             }
             html += '        </div>\n';
         }
-
         html += '    </div>\n';
         html += '</section>\n';
     }
-    console.log('before append');
     $('#teams').append(html);
-    console.log('after append');
-    console.log($('.team-member img'));
+    // console.log($('.team-member img'));
     var error_names = '';
-    $('img').on('error', function() {
-        console.log('error occured');
-        let path = $(this).attr('src');
-        let startIndex = path.search('members/(.)+.jpg');
-        let endIndex = path.search('.jpg');
-        let name = path.substring(startIndex + 8, endIndex);
-        error_names += name + ', ';
-        console.log(error_names);
-        $(this).attr('src', 'images/placeholder - 256.jpg');
+    $('img').on('error', function(e) {
+        // console.log('error occured');
+        // let path = $(this).attr('src');
+        // let startIndex = path.search('members/(.)+.jpg');
+        // let endIndex = path.search('.jpg');
+        // let name = path.substring(startIndex + 8, endIndex);
+        // error_names += name + ', ';
+        // console.log(error_names);
+        $(this).attr('src', 'images/placeholder-person - 256.jpg');
     });
     console.log(TAG + 'createTeamsPage: ends');
 }
@@ -419,18 +416,18 @@ function createTeamsPage() {
 function createTeamsSlider() {
     console.log('createTeamsSlider: starts');
     let sections = $('main section');
-    console.log(sections.length);
+    console.log('section -> ' + sections.length);
 
     let html = '<ul>\n';
     for (let i = 0; i < sections.length; i++) {
-        console.log(sections[i]);
+        // console.log(sections[i]);
         html += '    <li>\n';
         html += '        <span id="tooltip">' + $(sections[i]).attr('id') + '</span>\n';
         html += '        <a href="#' + $(sections[i]).attr('id') + '">•</a>\n';
         html += '    </li>\n';
     }
     html += '</ul>';
-    console.log(html);
+    // console.log(html);
     $('#slider').html(html);
 
     $('#slider li').hover(function() {
