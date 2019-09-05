@@ -86,6 +86,17 @@ section h1 {
 #section-intro #tag-line {
     font-size: 6vw;
     font-style: italic;
+    // google fonts
+    // font-family: 'Pacifico', cursive;
+    // font-family: 'Dancing Script', cursive;
+    // font-family: 'Shadows Into Light', cursive;
+    // font-family: 'Satisfy', cursive;
+    // font-family: 'Permanent Marker', cursive;
+    // font-family: 'Courgette', cursive;
+    // font-family: 'Caveat', cursive;
+    // font-family: 'Kalam', cursive;
+    font-family: 'Kaushan Script', cursive;
+    // font-family: 'Great Vibes', cursive;
 }
 
 #section-intro button {
@@ -149,6 +160,9 @@ section h1 {
         border-radius: 100%;
         background: var(--color-1);
         padding: 8px;
+    }
+    #section-intro #full-form {
+        padding-left: 12px;
     }
 }
 

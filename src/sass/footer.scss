@@ -1,6 +1,5 @@
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'node_modules/font-awesome/scss/font-awesome.scss';
-
 * {
     --color-1: #250E28;
     --color-2: #F4EDDA;
@@ -10,14 +9,14 @@
     --color-6: #F4E4C0;
     --color-7: #F9C311;
     --color-8: #EB9A20;
-
     box-sizing: border-box;
     font-family: roboto, comfortaa, Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-#footer #google-map-container, #contact-us-container {
+#footer #google-map-container,
+#contact-us-container {
     width: 100%;
     height: 50vh;
 }
@@ -62,7 +61,8 @@ footer #contact-us-container {
     width: 100%;
 }
 
-#quick-links-container table td {
+#quick-links-container table td,
+th {
     padding: 16px 8px;
     border: 1px solid black;
     background: var(--color-2);
@@ -73,7 +73,7 @@ footer #contact-us-container {
     cursor: pointer;
 }
 
-#quick-links-container thead td {
+#quick-links-container thead th {
     background: var(--color-8);
     font-weight: bold;
 }
@@ -101,7 +101,8 @@ footer #contact-us-container {
         align-items: stretch;
         justify-content: center;
     }
-    #footer #google-map-container, #contact-us-container {
+    #footer #google-map-container,
+    #contact-us-container {
         width: 100%;
         height: 100vh;
         flex-grow: 1;

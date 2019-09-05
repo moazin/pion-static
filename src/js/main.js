@@ -170,8 +170,8 @@ $(function() {
     console.log(TAG + 'document: starts');
 
     let htmlPath = window.location.href;
-    // let domainName = 'pionpieas.com';
-    let domainName = 'localhost:8080';
+    let domainName = 'pionpieas.com';
+    // let domainName = 'localhost:8080';
     let startIndex = htmlPath.search(domainName + '/(.)+.html');
     let endIndex = htmlPath.search('.html');
     currentPage = htmlPath.substring(startIndex + domainName.length + 1, endIndex);
