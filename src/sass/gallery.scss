@@ -1,0 +1,78 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/font-awesome/scss/font-awesome.scss';
+* {
+    --color-1: #250E28;
+    --color-2: #F4EDDA;
+    --color-3: #ED4732;
+    --color-4: #F2DAC2;
+    --color-5: #F4E8C0;
+    --color-6: #F4E4C0;
+    --color-7: #F9C311;
+    --color-8: #EB9A20;
+    box-sizing: border-box;
+    font-family: roboto, comfortaa, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-title {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-title img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px) grayscale(1);
+}
+
+.page-title h1 {
+    margin: 0px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 5em;
+    background: -webkit-linear-gradient(45deg, var(--color-3), var(--color-5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0.08em solid #ffffff;
+    padding: 16px;
+    opacity: 0.9;
+}
+
+.pion-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pion-gallery .day-container {
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 16px;
+}
+
+.day-container h2 {
+    background: white;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.day-container iframe {
+    width: 350px;
+    height: 600px;
+    overflow: hidden;
+}

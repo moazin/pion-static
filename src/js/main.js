@@ -170,8 +170,8 @@ $(function() {
     console.log(TAG + 'document: starts');
 
     let htmlPath = window.location.href;
-    // let domainName = 'pionpieas.com';
-    let domainName = 'localhost:8080';
+    let domainName = 'pionpieas.com';
+    // let domainName = 'localhost:8080';
     let startIndex = htmlPath.search(domainName + '/(.)+.html');
     let endIndex = htmlPath.search('.html');
     currentPage = htmlPath.substring(startIndex + domainName.length + 1, endIndex);
@@ -450,7 +450,7 @@ function setupCountdown() {
     $('#countdown').show();
     window.setInterval(function() {
         console.log('window.setInterval starts');
-        var endTime = new Date(2019, 10, 18);
+        var endTime = new Date(2019, 9, 25);
         var currentTime = new Date();
         var remainingTime = (endTime - currentTime) / 1000;
         var months = twoChars(Math.floor(remainingTime / (60 * 60 * 24 * 30)));
