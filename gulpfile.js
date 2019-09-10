@@ -4,6 +4,7 @@ var gulp = require('gulp');
 var panini = require('panini');
 var sass = require('gulp-sass');
 var uglifycss = require('gulp-uglifycss');
+const imagemin = require('gulp-imagemin');
 var path = require('path');
 var webpack = require('webpack');
 
@@ -56,6 +57,7 @@ function js(){
 
 function images(){
 	return gulp.src('src/images/**/*.{gif,jpg,png,svg}')
+	.pipe(imagemin())
 	.pipe(gulp.dest('dist/images'));
 }
 
