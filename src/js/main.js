@@ -757,7 +757,7 @@ var TEAMS_DATA = {
     'guest protocol': {
         'coordinators': ['abdul wahab nasir', 'maham saeed'],
         'heads': ['muhammad dawood bashir', 'warda tu zahra'],
-        'members': ['abdul ahad', 'ahmad kamal baig', 'aleena ajaz', 'amina tabassum', 'ayesha salar', 'hammad ali', 'kashif munir', 'm. haider khan', 'mehwish israr', 'mir hamza', 'ashhab khan', 'muhammad azeem sarwar', 'muhammad farrukh irfan', 'muhammad furqan', 'muhammad umair aziz', 'muhammad waleed naeem', 'muhammad zakki sohail', 'nimra riaz', 'ruhma khan', 'saleha mushtaq', 'shazil anjum', 'sukaina najm', 'syed afnan gillani', 'syed fahad ullah', 'umar tariq', 'umer husnain', 'uswa fatima', 'zain ul hassan', 'zoha assad']
+        'members': ['abdul ahad', 'mehwish israr', 'ahmad kamal baig', 'aleena ajaz', 'amina tabassum', 'ayesha salar', 'hammad ali', 'kashif munir', 'm. haider khan', 'mir hamza', 'ashhab khan', 'muhammad azeem sarwar', 'muhammad farrukh irfan', 'muhammad furqan', 'muhammad umair aziz', 'muhammad waleed naeem', 'muhammad zakki sohail', 'nimra riaz', 'ruhma khan', 'saleha mushtaq', 'shazil anjum', 'sukaina najm', 'syed afnan gillani', 'syed fahad ullah', 'umar tariq', 'umer husnain', 'uswa fatima', 'zain ul hassan', 'zoha assad']
     },
     'videography': {
         'coordinators': ['nabeel ahmed'],
