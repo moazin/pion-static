@@ -1,0 +1,37 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+input:focus{
+	outline : none;
+}
+
+.heading {
+	font-family: 'Roboto', sans-serif;
+	font-weight : bold;
+}
+
+.text{
+	font-size : 13px;
+}
+
+#s1{
+	width : 800px;
+	height : 800px;
+	margin-left : calc(50% + 100px);
+	margin-top : -5%;
+}
+#s2{
+	width : 300px;
+	height : 300px;
+	margin-top : 15%;
+	display : inline-block;
+}
+.button{
+	padding : 13px;
+	border-radius : 3px;
+	color : white;
+	text-decoration : none;
+	background : #f06446dd;
+	font-size : 18px;
+}

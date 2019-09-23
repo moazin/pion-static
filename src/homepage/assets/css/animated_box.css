@@ -1,0 +1,83 @@
+#div1{
+	width : 200px;
+    height : 200px;
+    margin : 70px;
+    transform : rotate(45deg);
+    border-radius : 20px;
+    box-shadow : 0px 0px 5px grey;
+    background : grey;
+    overflow : hidden;
+    animation : rotateccw 8s infinite linear;
+}
+#div2{
+	width : 340px;
+    height : 340px;
+    /*background : url(https://ieeepieas.com/wp-content/uploads/bb-plugin/cache/Ali-Nauroze-circle.jpeg);*/
+    background-size : 80% 80%;
+    background-position : 70% 70%;
+    transform : rotate(-45deg);
+    position : absolute;
+    margin-top : -70px;
+    margin-left : -90px;
+    background-repeat : no-repeat;
+    animation : rotatecc 8s infinite linear;
+}
+.transformed_block_container{
+    margin : 70px;
+    transform : rotate(45deg);
+    border-radius : 20px;
+    box-shadow : 0px 0px 5px grey;
+    background : grey;
+    overflow : hidden;
+    animation : bigrotateccw 13s infinite linear;
+	background : grey;
+}
+.transformed_block{
+	width : 170%;
+    height : 170%;
+    /*background : url(https://s.yimg.com/ny/api/res/1.2/pBQt0jmi6VkhSVTSkXcZWg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD05MzAuODc3NzU1NTExMDIyMQ--/https://s.yimg.com/uu/api/res/1.2/VjGLBHJ_1la2DQVKjoQyTw--~B/aD0yOTkyO3c9Mzk5MjtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2019-07/7ece9530-9cf1-11e9-bf3c-4fe6e6438142);*/
+    background-size : 80% 80%;
+    background-position : 70% 70%;
+    transform : rotate(-45deg);
+    position : absolute;
+    margin-top : -35%;
+    margin-left : -45%;
+    background-repeat : no-repeat;
+    animation : bigrotatecc 13s infinite linear;
+}
+
+#s2{
+    animation : rotatecc 13s infinite linear;
+}
+#s2 .transformed_block{
+	animation : rotateccw 13s infinite linear;
+}
+
+@keyframes rotateccw{
+	0% {transform : rotate(40deg);}
+    50% {transform : rotate(50deg);}
+    60% {transform : rotate(50deg);}
+    90% {transform : rotate(40deg);}
+    100% {transform : rotate(40deg);}
+}
+@keyframes rotatecc{
+	0% {transform : rotate(-40deg);}
+    50% {transform : rotate(-50deg);}
+    60% {transform : rotate(-50deg);}
+    90% {transform : rotate(-40deg);}
+    100% {transform : rotate(-40deg);}
+}
+@keyframes bigrotateccw{
+	0% {transform : rotate(42.5deg);}
+    50% {transform : rotate(47.5deg);}
+    60% {transform : rotate(47.5deg);}
+    90% {transform : rotate(42.5deg);}
+    100% {transform : rotate(42.5deg);}
+}
+@keyframes bigrotatecc{
+	0% {transform : rotate(-42.5deg);}
+    50% {transform : rotate(-47.5deg);}
+    60% {transform : rotate(-47.5deg);}
+    90% {transform : rotate(-42.5deg);}
+    100% {transform : rotate(-42.5deg);}
+}

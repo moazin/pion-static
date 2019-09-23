@@ -1,0 +1,37 @@
+#topbar{
+	width : calc(100% - 10px);
+	overflow : hidden;
+	padding : 5px;
+	height : 50px;
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	z-index : 2;
+	padding-top : 20px;
+}
+#topbar_bg{
+	width : 35%;
+	background : white;
+	height : 100%;
+	z-index:-1;
+	position:absolute;
+}
+
+#topbar_logo{
+	height : 100%;
+	margin-left : 50px;
+	margin-right : 50px;
+	text-decoration : none;
+}
+#topbar #links{
+	display : inline-block;
+	vertical-align : top;
+	margin-top : 20px;
+}
+#topbar #links a{
+	text-decoration : none;
+	padding : 13px;
+	border-radius : 3px;
+	color :  #240f27;
+	text-shadow : 1px 1px white;
+}
