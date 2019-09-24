@@ -3,25 +3,28 @@
 <head>
     <title>PiON 19</title>
     <!--<script src='http://localhost/multiply/jquery.js'></script>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src='/homepage/assets/js/testimonials.js'></script>
     <script src='/homepage/assets/js/load.js'></script>
     <script src='/homepage/assets/js/countdown.js'></script>
     <script src='/homepage/assets/js/scroll.js'></script>
     <script src='/homepage/assets/js/testimonial_animation.js'></script>
+    <link rel='stylesheet' href='/homepage/assets/css/style.css'>
     <link rel='stylesheet' href='/homepage/assets/css/load.css'>
     <link rel='stylesheet' href='/homepage/assets/css/topbar.css'>
     <link rel='stylesheet' href='/homepage/assets/css/section.css'>
-    <link rel='stylesheet' href='/homepage/assets/css/style.css'>
     <link rel='stylesheet' href='/homepage/assets/css/animated_box.css'>
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/home-page.css" />
 </head>
 
 <body>
-    <div id='lb'>
+    <div id='lb' style='z-index:1;'>
         <center>
-            <img src='/homepage/assets/images/pion19-logo-02.png' id='load_image'>
+            <img src='homepage/assets/images/pion19-logo-02.png' id='load_image'>
             <div id='loading_container' id='s1'>
                 <div id='loading_progress'></div>
             </div>
@@ -30,16 +33,16 @@
     <div id='topbar'>
         <div id='topbar_bg'></div>
         <a href='#home' style='text-decoration:none;'>
-            <img src='/homepage/assets/images/pion19-logo-01.png' id='topbar_logo'>
+            <img src='homepage/assets/images/pion19-logo-01.png' id='topbar_logo'>
         </a>
         <div id='links'>
-            <a href='/index.html'>Home</a>
-            <a href='/about-us.html'>About Us</a>
-            <a href='/modules.html'>Modules</a>
-            <a href='/timeline.html'>Timeline</a>
-            <a href='/teams.html'>Teams</a>
-            <a href='/gallery.html'>Gallery</a>
-            <a href='contact-us.html'>Contact Us</a>
+            <a href="/index.html">HOME</a>
+            <a href="/about-us.html">ABOUT US</a>
+            <a href="/modules.html">MODULES</a>
+            <a href="/timeline.html">TIMELINE</a>
+            <a href="/teams.html">TEAMS</a>
+            <a href="/gallery.html">GALLERY</a>
+            <a href="/contact-us.html">CONTACT US</a>
         </div>
     </div>
 
@@ -65,7 +68,7 @@
                     <p class='text'>Seconds</p>
                 </div>
             </div>
-            <a href='/register' class='button' style='margin:20px 50px;display:inline-block;'>Register</a>
+            <a href='#register' class='button' style='margin:20px 50px;display:inline-block;'>Register</a>
         </div>
         <div class='transformed_block_container' id='s1'>
             <div class='transformed_block' style="background-image: url('/homepage/assets/images/2.jpg'); background-size: cover;"></div>
@@ -75,7 +78,7 @@
     <div id='section2' class='section'>
         <center>
             <div class='transformed_block_container' id='s2'>
-                <div class='transformed_block' style="background-image: url('/homepage/assets/images/pion19-logo-02.png'); background-size: cover;"></div>
+                <div class='transformed_block' style="background-image: url('/homepage/assets/images/3.jpg'); background-size: cover;"></div>
             </div>
             <div class='main'>
                 <p class='subtitle' style='margin-left:0px;'>About</p>
@@ -86,16 +89,16 @@
                     of a jury? How much of a Gamer are you? Got Game?
                 </p>
                 <div class='container'>
-                    <img src='/homepage/assets/images/modules.svg'>
+                    <img src='homepage/assets/images/modules.svg'>
                 </div>
                 <div class='container'>
-                    <img src='/homepage/assets/images/modules.svg'>
+                    <img src='homepage/assets/images/modules.svg'>
                 </div>
                 <div class='container'>
-                    <img src='/homepage/assets/images/modules.svg'>
+                    <img src='homepage/assets/images/modules.svg'>
                 </div>
                 <div class='container'>
-                    <img src='/homepage/assets/images/modules.svg'>
+                    <img src='homepage/assets/images/modules.svg'>
                 </div>
             </div>
         </center>
@@ -104,7 +107,7 @@
     <div class='section' id='section3'>
         <div id='section3_main'>
             <p class='title' style='color:white'>Title</p>
-            <p style='color:white;margin-left:50px;text-spacing:3;'><b>This is some subheading of PiON Website. Write here a brief description of people who are coming to the event or organizing the event.</b></p>
+            <p id='section3p'><b>This is some subheading of PiON Website. Write here a brief description of people who are coming to the event or organizing the event.</b></p>
             <ul id='section3_list'>
                 <li>This is the point one of Team Description</li>
                 <li>This is the point two of Team Description</li>
@@ -196,91 +199,91 @@
         <center>
             <div class='section4block day1'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/opening-cermony.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Opening Ceremony</p>
             </div>
             <div class='section4block day1'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/67.jpg'); background-size: cover;"></div>
                 </div>
-                <p class='title'>10 Non-Technical Module</p>
+                <p class='title'>Non-Technical Module</p>
             </div>
             <div class='section4block day1'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/19.jpg'); background-size: cover;"></div>
                 </div>
-                <p class='title'>10 Technical Module</p>
+                <p class='title'>Technical Module</p>
             </div>
             <div class='section4block day1'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/2.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Got Talent</p>
             </div>
             <div class='section4block day1'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/68.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Qawali</p>
             </div>
             <div class='section4block day2'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/38.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Scavanger Hunt</p>
             </div>
             <div class='section4block day2'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/43.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Cyber Gaming</p>
             </div>
             <div class='section4block day2'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/54.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Parlimentary Debates</p>
             </div>
             <div class='section4block day2'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/carnival.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Carnival</p>
             </div>
             <div class='section4block day2'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/rave-night.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Rave Night</p>
             </div>
             <div class='section4block day3'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/12.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Sports</p>
             </div>
             <div class='section4block day3'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/32.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Plan It</p>
             </div>
             <div class='section4block day3'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/54.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Parlimentary Debates</p>
             </div>
             <div class='section4block day3'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/55.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Photography Competetion</p>
             </div>
             <div class='section4block day3'>
                 <div class='transformed_block_container'>
-                    <div class='transformed_block'></div>
+                    <div class='transformed_block' style="background-image: url('/images/images-modules/37.jpg'); background-size: cover;"></div>
                 </div>
                 <p class='title'>Closing Ceremony</p>
             </div>
@@ -291,6 +294,55 @@
             </div>
         </center>
     </div>
+
+    <footer id="footer">
+        <div id="main-box">
+            <section id="column1" class="column">
+                <h2>Any Query?</h2>
+                <form>
+                    <label class="heading-para" for="user-name">Name</label><br>
+                    <input id="user-name" type="text" name="user_name" placeholder="Enter Your Name" size="28"><br><br>
+                    <label class="heading-para" for="user-email">Email</label><br>
+                    <input id="user-email" type="email" name="user_email" placeholder="Enter Your Email" size="28"><br><br>
+                    <label class="heading-para" for="user-message">Message</label><br>
+                    <textarea name="user_message" id="user-message" cols="30" rows="10"></textarea><br><br>
+                    <input id="submit-button" type="submit" name="submit_button" value="Submit">
+                </form>
+            </section>
+            <section id="column2" class="column">
+                <h2>Our Information</h2>
+                <p class="heading-para">Address</p>
+                <p><a href="http://www.pieas.edu.pk/">PIEAS, Lehtrar Road, Nilore, Islamabad, Pakistan</a></p>
+
+                <br><br>
+
+                <p class="heading-para">Social Links</p>
+                <a class="fa fa-facebook" href="https://www.facebook.com/pion.pieas/"></a>
+                <a class="fa fa-instagram" href="https://instagram.com/pion.pieas?igshid=16c0s58wux154"></a>
+                <a class="fa fa-twitter" href="https://twitter.com/pieas_pion"></a>
+                <a class="fa fa-google" href="mailto:pieasnationalolympiad19@gmail.com"></a>
+
+                <br><br>
+
+                <p class="heading-para">Contacts</p>
+                <p>Muhammad Humzah Zaffar: 0335-6886550</p>
+                <p>Abdul Ahad: 0331-4554423</p>
+            </section>
+
+            <section id="column3" class="column">
+                <h2>Links</h2><br>
+                <a href="/index.html">HOME</a><br>
+                <a href="/about-us.html">ABOUT US</a><br>
+                <a href="/modules.html">MODULES</a><br>
+                <a href="/timeline.html">TIMELINE</a><br>
+                <a href="/teams.html">TEAMS</a><br>
+                <a href="/gallery.html">GALLERY</a><br>
+                <a href="/contact-us.html">CONTACT US</a><br>
+                <br><br><br>
+                <a href="/teams.html#website">Proudly Created by Web-Team PiON`19</a>
+            </section>
+        </div>
+    </footer>
 </body>
 
 </html>

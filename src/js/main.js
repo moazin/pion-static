@@ -5,6 +5,7 @@ import 'bootstrap';
 var MODULE_KEYS = ['Name of Module', 'Heads', 'Contact', 'Minimun Members', 'Maximum Members', 'Module Fee'];
 var MODULES_DATA = {
     'module-01': {
+        'Image Name': '25.jpg',
         'Contact': 3332873132,
         'Heads': 'Arslan Khalid',
         'Maximum Members': 3,
@@ -16,6 +17,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-02': {
+        'Image Name': '28.jpg',
         'Contact': 3067100039,
         'Heads': 'Hammad Ali',
         'Maximum Members': 2,
@@ -27,6 +29,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-03': {
+        'Image Name': '29.jpg',
         'Contact': 3365346110,
         'Heads': 'Anns Rashid',
         'Maximum Members': 3,
@@ -38,6 +41,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-04': {
+        'Image Name': '26.jpg',
         'Contact': 3444030033,
         'Heads': 'Faizan Ahmed',
         'Maximum Members': 5,
@@ -49,6 +53,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-05': {
+        'Image Name': '31.jpg',
         'Contact': 3004282992,
         'Heads': 'Faizan Javed',
         'Maximum Members': 2,
@@ -60,6 +65,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-06': {
+        'Image Name': '27.jpg',
         'Contact': 3351761096,
         'Heads': 'Usman Khalid',
         'Maximum Members': 2,
@@ -71,6 +77,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-07': {
+        'Image Name': '53.jpg',
         'Contact': 3345597828,
         'Heads': 'Abdur Rehman Shamsi',
         'Maximum Members': 4,
@@ -82,6 +89,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-08': {
+        'Image Name': '45.jpg',
         'Contact': 3346998295,
         'Heads': 'M Yasir Aziz',
         'Maximum Members': 5,
@@ -93,6 +101,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-09': {
+        'Image Name': '44.jpg',
         'Contact': 3355881332,
         'Heads': 'Furqan Shaikh',
         'Maximum Members': 1,
@@ -104,6 +113,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-10': {
+        'Image Name': '43.jpg',
         'Contact': 3107459732,
         'Heads': 'Zain ul Hassan',
         'Maximum Members': 5,
@@ -111,10 +121,11 @@ var MODULES_DATA = {
         'Module Fee': 1500,
         'Name of Module': 'Counter Strike 1.6',
         // 'category': '',
-        'Description': '<h3>Rules<h3><strong>Game Format:</strong><ul><li>2 sides (Terrorist and Counter-Terrorist)</li><li>  Competition Method 5 vs 5 </li><li>  Total 10 players (5 on each side) </li><li>  Total 32 rounds will be played. The team who scored first 16 rounds will be the winner of the map. </li><li>  Buy time: 15seconds</li><li>  Start money: $800 </li><li>  Freeze time: 15seconds </li><li>  Map pool: (de_dust2, de_inferno, de_nuke, de_train) *The map pool may be changed prior to the tournament. Players will be informed of any such changes as soon as possible. </li><li>  Map time: One 1 minute 45 seconds on a map </li><strong>Side Selection: </strong><li>  A knife round will be played.  </li><li>  The winner team will choose the side (Counter-Terrorist or Terrorist) by typing in global in-game chat or tell the admin. (e.g. STAY or SWAP).  </li><li> After 16 rounds, the teams will switch the sides. </li></ul><strong>Winning Condition:</strong><p>Both teams will play the Map pool. The team with the most map winning will be selected.  </p><p>If map score ties (16-16), team will switch the sides and additional 6 rounds (3 on each sides) with $800 start money will be played. </p><p>If Map pool score ties (2-2), then 6 rounds (3 on each sides) with $800 start money will be played in ‘de_dust2’ with a knife round for side selection.</p><strong>Setup and Configuration:</strong><p>Non-standard game settings or third-party applications that affect game play are not permitted. Players found using either will be penalized at the administrators´ discretion.</p><strong>Tournament Guideline:</strong><p>Any disconnection issues that cannot be resolved by the players in the match must be brought to the attention of an admin immediately. Any use of game exploits, cheats, or any other play deemed “unfair” by an admin may result in disciplinary action up to and including disqualification from the tournament. Competitors are not allowed to use global in-game chat in an abusive, offensive, vulgar or spamming manner at any point during a match. This includes pre-match, intermission and post-match periods as well. When a match is live, only team captains are allowed to use global in-game messages between rounds or at half time, other players must use team-only in-game messages. Violators of these rules are subject to penalties at the administrators’ discretion, which may include player suspension(s) or forfeiture of the match</p>',
+        'Description': '<h3>Rules</h3><strong>Game Format:</strong><ul><li>2 sides (Terrorist and Counter-Terrorist)</li><li>  Competition Method 5 vs 5 </li><li>  Total 10 players (5 on each side) </li><li>  Total 32 rounds will be played. The team who scored first 16 rounds will be the winner of the map. </li><li>  Buy time: 15seconds</li><li>  Start money: $800 </li><li>  Freeze time: 15seconds </li><li>  Map pool: (de_dust2, de_inferno, de_nuke, de_train) *The map pool may be changed prior to the tournament. Players will be informed of any such changes as soon as possible. </li><li>  Map time: One 1 minute 45 seconds on a map </li><strong>Side Selection: </strong><li>  A knife round will be played.  </li><li>  The winner team will choose the side (Counter-Terrorist or Terrorist) by typing in global in-game chat or tell the admin. (e.g. STAY or SWAP).  </li><li> After 16 rounds, the teams will switch the sides. </li></ul><strong>Winning Condition:</strong><p>Both teams will play the Map pool. The team with the most map winning will be selected.  </p><p>If map score ties (16-16), team will switch the sides and additional 6 rounds (3 on each sides) with $800 start money will be played. </p><p>If Map pool score ties (2-2), then 6 rounds (3 on each sides) with $800 start money will be played in ‘de_dust2’ with a knife round for side selection.</p><strong>Setup and Configuration:</strong><p>Non-standard game settings or third-party applications that affect game play are not permitted. Players found using either will be penalized at the administrators´ discretion.</p><strong>Tournament Guideline:</strong><p>Any disconnection issues that cannot be resolved by the players in the match must be brought to the attention of an admin immediately. Any use of game exploits, cheats, or any other play deemed “unfair” by an admin may result in disciplinary action up to and including disqualification from the tournament. Competitors are not allowed to use global in-game chat in an abusive, offensive, vulgar or spamming manner at any point during a match. This includes pre-match, intermission and post-match periods as well. When a match is live, only team captains are allowed to use global in-game messages between rounds or at half time, other players must use team-only in-game messages. Violators of these rules are subject to penalties at the administrators’ discretion, which may include player suspension(s) or forfeiture of the match</p>',
         // 'rules': []
     },
     'module-11': {
+        'Image Name': '51.jpg',
         'Contact': 3335675137,
         'Heads': 'Wajih un Nabi',
         'Maximum Members': 1,
@@ -126,6 +137,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-12': {
+        'Image Name': '52.jpg',
         'Contact': 3314051930,
         'Heads': 'Muhammad Ahmad',
         'Maximum Members': 1,
@@ -137,6 +149,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-13': {
+        'Image Name': '54.jpg',
         'Contact': 3335255090,
         'Heads': 'Musfirah Ehsan',
         'Maximum Members': 2,
@@ -148,6 +161,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-14': {
+        'Image Name': '55.jpg',
         'Contact': 3341541549,
         'Heads': 'Sarmad Salman',
         'Maximum Members': 1,
@@ -159,6 +173,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-15': {
+        'Image Name': '56.jpg',
         'Contact': 3005414147,
         'Heads': 'Adil Tiwana',
         'Maximum Members': 1,
@@ -170,6 +185,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-16': {
+        'Image Name': '57.jpg',
         'Contact': 3457707731,
         'Heads': 'Umair Shaffi',
         'Maximum Members': 1,
@@ -181,6 +197,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-17': {
+        'Image Name': '1.jpg',
         'Contact': 3340754787,
         'Heads': 'Inam Elahi',
         'Maximum Members': 3,
@@ -192,6 +209,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-18': {
+        'Image Name': '4.jpg',
         'Contact': 3214896939,
         'Heads': 'Irtiza',
         'Maximum Members': 3,
@@ -203,6 +221,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-19': {
+        'Image Name': '5.jpg',
         'Contact': 3119580075,
         'Heads': 'Ammar Mukhtar',
         'Maximum Members': 1,
@@ -214,6 +233,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-20': {
+        'Image Name': '2.jpg',
         'Contact': 3040090040,
         'Heads': 'Aamir Abbas',
         'Maximum Members': 0,
@@ -225,6 +245,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-21': {
+        'Image Name': '3.jpg',
         'Contact': 3305377966,
         'Heads': 'Shan Yousaf',
         'Maximum Members': 2,
@@ -236,6 +257,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-22': {
+        'Image Name': '7.jpg',
         'Contact': 3206641100,
         'Heads': 'Muhammad Ubaidullah',
         'Maximum Members': 1,
@@ -246,18 +268,20 @@ var MODULES_DATA = {
         'Description': '<h3>Rules for Essay Writing</h3><ul><li>Five themes will be announced 5 days before the competition. </li><li>Two selected topics will be announced on spot and the participants will have to write an essay on one of those topics. </li><li>Word limit is 1000-1500. </li><li>Participants will be given a time of 2 hours to complete their essay. </li></ul><h3>Rules for Story Writing</h3><ul><li>Topics will be announced on spot and the participants will have to write a story on one of those topics. </li><li>Word limit is 1500-2000. </li><li>Participants will be given a time of 2.5 hours to complete their essay. </li></ul>',
         // 'rules': []
     },
-    'module-23': {
-        'Contact': 0,
-        'Heads': 'Muhammad Moeeze',
-        'Maximum Members': 0,
-        'Minimun Members': 0,
-        'Module Fee': 0,
-        'Name of Module': 'All Rounder',
-        // 'category': '',
-        'Description': '',
-        // 'rules': []
-    },
+    // 'module-23': {
+    //     'Image Name': '25.jpg',
+    //     'Contact': 0,
+    //     'Heads': 'Muhammad Moeeze',
+    //     'Maximum Members': 0,
+    //     'Minimun Members': 0,
+    //     'Module Fee': 0,
+    //     'Name of Module': 'All Rounder',
+    //     // 'category': '',
+    //     'Description': '',
+    //     // 'rules': []
+    // },
     'module-24': {
+        'Image Name': '10.jpg',
         'Contact': 3340754787,
         'Heads': 'M Inaam Elahi',
         'Maximum Members': 1,
@@ -269,6 +293,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-25': {
+        'Image Name': '10.jpg',
         'Contact': 3340754787,
         'Heads': 'Isra Imran',
         'Maximum Members': 1,
@@ -280,6 +305,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-26': {
+        'Image Name': '10.jpg',
         'Contact': 3340754787,
         'Heads': 'M Inaam Elahi',
         'Maximum Members': 2,
@@ -291,6 +317,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-27': {
+        'Image Name': '10.jpg',
         'Contact': 3340754787,
         'Heads': 'Isra Imran',
         'Maximum Members': 2,
@@ -302,6 +329,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-28': {
+        'Image Name': '11.jpg',
         'Contact': 3160053010,
         'Heads': 'Qazi Abdullah',
         'Maximum Members': 1,
@@ -313,6 +341,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-29': {
+        'Image Name': '11.jpg',
         'Contact': 3160053010,
         'Heads': 'Nimra Riaz',
         'Maximum Members': 1,
@@ -324,6 +353,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-30': {
+        'Image Name': '11.jpg',
         'Contact': 3160053010,
         'Heads': 'Qazi Abdullah',
         'Maximum Members': 2,
@@ -335,6 +365,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-31': {
+        'Image Name': '11.jpg',
         'Contact': 3160053010,
         'Heads': 'Nimra Riaz',
         'Maximum Members': 2,
@@ -346,6 +377,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-32': {
+        'Image Name': '12.jpg',
         'Contact': 3310466566,
         'Heads': 'Hamza Atiq',
         'Maximum Members': 8,
@@ -357,6 +389,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-33': {
+        'Image Name': '63.jpg',
         'Contact': 3087282420,
         'Heads': 'Umer Shehzad',
         'Maximum Members': 8,
@@ -368,6 +401,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-34': {
+        'Image Name': '64.jpg',
         'Contact': 3365987990,
         'Heads': 'Uzair Aurangzeb',
         'Maximum Members': 6,
@@ -379,6 +413,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-35': {
+        'Image Name': '61.jpg',
         'Contact': 3334706761,
         'Heads': 'Hassan Khan',
         'Maximum Members': 1,
@@ -390,6 +425,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-36': {
+        'Image Name': '17.jpg',
         'Contact': 3324106275,
         'Heads': 'Ahmad Dar',
         'Maximum Members': 8,
@@ -401,6 +437,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-37': {
+        'Image Name': '16.jpg',
         'Contact': 3128666939,
         'Heads': 'Khayyam Akhtar',
         'Maximum Members': 1,
@@ -412,6 +449,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-38': {
+        'Image Name': '14.jpg',
         'Contact': 3201406310,
         'Heads': 'Abdullah Ahmad',
         'Maximum Members': 2,
@@ -423,6 +461,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-39': {
+        'Image Name': '14.jpg',
         'Contact': 3201406310,
         'Heads': 'Abdullah Ahmad',
         'Maximum Members': 1,
@@ -434,6 +473,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-40': {
+        'Image Name': '8.jpg',
         'Contact': 3063291827,
         'Heads': 'Tanveer Hussain',
         'Maximum Members': 8,
@@ -445,6 +485,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-41': {
+        'Image Name': '38.jpg',
         'Contact': 3069860995,
         'Heads': 'Waqar ul Hassan',
         'Maximum Members': 5,
@@ -456,6 +497,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-42': {
+        'Image Name': '35.jpg',
         'Contact': 3355786231,
         'Heads': 'Waleed Akhtar',
         'Maximum Members': 2,
@@ -467,6 +509,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-43': {
+        'Image Name': '40.jpg',
         'Contact': 3365400794,
         'Heads': 'Abdullah Jawad',
         'Maximum Members': 2,
@@ -478,6 +521,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-44': {
+        'Image Name': '36.jpg',
         'Contact': 3366206043,
         'Heads': 'Tauqeer Nasir',
         'Maximum Members': 2,
@@ -489,6 +533,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-45': {
+        'Image Name': '39.jpg',
         'Contact': 3344243719,
         'Heads': 'Talha Jabbar',
         'Maximum Members': 2,
@@ -500,6 +545,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-46': {
+        'Image Name': '41.jpg',
         'Contact': 3328001551,
         'Heads': 'Abdullah Bajwa',
         'Maximum Members': 2,
@@ -511,6 +557,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-47': {
+        'Image Name': '42.jpg',
         'Contact': 3332520949,
         'Heads': 'Humair Abbas',
         'Maximum Members': 2,
@@ -522,6 +569,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-48': {
+        'Image Name': '58.jpg',
         'Contact': 3467208835,
         'Heads': 'Talha Bilal',
         'Maximum Members': 2,
@@ -533,6 +581,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-49': {
+        'Image Name': '65.jpg',
         'Contact': 3439555320,
         'Heads': 'Hassan Sattar',
         'Maximum Members': 2,
@@ -544,6 +593,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-50': {
+        'Image Name': '22.jpg',
         'Contact': 3349402887,
         'Heads': 'Usman Imtiaz',
         'Maximum Members': 3,
@@ -555,6 +605,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-51': {
+        'Image Name': '19.jpg',
         'Contact': 3366760860,
         'Heads': 'Sumama Masood',
         'Maximum Members': 2,
@@ -566,6 +617,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-52': {
+        'Image Name': '21.jpg',
         'Contact': 3314514100,
         'Heads': 'M UbaidUllah',
         'Maximum Members': 5,
@@ -577,6 +629,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-53': {
+        'Image Name': '20.jpg',
         'Contact': 3341541549,
         'Heads': 'Sarmad Salman',
         'Maximum Members': 5,
@@ -588,6 +641,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-54': {
+        'Image Name': '24.jpg',
         'Contact': 3076589023,
         'Heads': 'Umair Asghar',
         'Maximum Members': 4,
@@ -599,6 +653,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-55': {
+        'Image Name': '23.jpg',
         'Contact': 3030133677,
         'Heads': 'Waleed Naeem',
         'Maximum Members': 5,
@@ -610,6 +665,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-56': {
+        'Image Name': '18.jpg',
         'Contact': 3341541549,
         'Heads': 'Sarmad Salman',
         'Maximum Members': 6,
@@ -621,6 +677,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-57': {
+        'Image Name': '59.jpg',
         'Contact': 3337468337,
         'Heads': 'Qasim Zafar',
         'Maximum Members': 6,
@@ -632,6 +689,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-58': {
+        'Image Name': '60.jpg',
         'Contact': 3359072049,
         'Heads': 'Shaheer Farooq',
         'Maximum Members': 6,
@@ -643,6 +701,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-59': {
+        'Image Name': '62.jpg',
         'Contact': 3315811454,
         'Heads': 'Fakhar fatima',
         'Maximum Members': 4,
@@ -654,6 +713,7 @@ var MODULES_DATA = {
         // 'rules': []
     },
     'module-60': {
+        'Image Name': '32.jpg',
         'Contact': 3318943396,
         'Heads': 'Inaam Ullah',
         'Maximum Members': 3,
@@ -663,7 +723,19 @@ var MODULES_DATA = {
         // 'category': '',
         'Description': '<p>Plan It seeks to develop entrepreneurial and problem-solving skills in the students at higher education level by igniting creativity to plan something beneficial for thesociety or public, as teams will solve a big real-world problem giver-non-spot, create a plan and later pitch it in front of the jury. </p><h3>Module Timeline</h3><strong>Introductory Session 1</strong><p>An introductory session will be arranged for the participants on Saturday 6th March, 2018. The purpose of this session is to guide the participants on Do\'s and Don\'ts and give them a detailed outline for the upcoming round. <p><strong>Round 1: Planning</strong><p>Round 1 will begin right after the introductory session. Each team willbe asked to give a solution to the "Big Problem" provided here on the spot. Different problems will be asked for the same industry/general category/Business and teams will be able to choose anyone based on their interests. The problems will be well defined and from everydayexperience, so any prior experience in entrepreneurship or else is not required. Teams will be given a time of 1 day for planning and will be required to submit, before the beginning Of Round 2, about theone-page plan of their solution containing details such as basic idea, thepracticality of solution, targeted audience, level of engagement Of audience, and achievable goals within the solution. For the convenience of the teams, a sample problem and its solution will be made available at least 7 days before the participation date to get an idea about the procedure to be followed.</p><strong>Introductory Session 2</strong><p>The final introductory session will take place on 7th April 2018. The purpose of which is to introduce teams to of pitching, which is included in planning to make the contestants able to clarify their ideas and practice conciseness while planning. Sample Pitches will also be presented to let participants get a clear idea of do\'s and don\'ts of this proceeding. The One-page plan will be submitted here and only submitting teams will get to pitch in the next round. </p><strong>Round 2: Pitching </strong><p>After the introductory Session, teams will get to prepare their pitches thoroughly in a time Of 40 minutes. After which, one member of each team will plan orally for 2 minutes before the judges and audience. Oral Pitch must include the big problem and your solution to it i.e. your idea, its practicality and the benefit it gives, your target audience and lastly the "Big Impact" it will make if implemented. A cash prize will be given to the winning team. Participation certificates for all team members shall also be distributed. </p><h3>Rules</h3><ul><li>Each Team will consist of 2-3 members. </li><li>1t is mandatory for participants to attend the introductory session. Failure to attend will result in immediate disqualification. </li><li>Additional research may be needed on part Of earn in planning for which internet connections will be made available. Personal internet connections and laptops are also permitted. </li><li>NO delays beyond the round deadlines will be tolerated at all. Late submissions will not be allowed to compete. </li><li>Only a single idea shall be pitched by each team. If a team comes up with multiple ideas, it is required to scrutinize all others to one. </li><li>Use of electronic media for pitch is not allowed. </li><li>Each team will be asked to solve the same set of problems. Professional ethics demand that competitors DO NOT discuss or reveal the topic till they pitch it. Competitors who violate this ethical standard will be penalized. </li><li>Teams will be judged based on their overall plan and the pitch. The plan will be judged On the basis of theidea, its practicality, the big change it makes and clarity of the plan; further, understanding of the problem and the evidence of teamwork will contribute to the score. Pitch will be judged on the basis Of organization, delivery and quality. </li><li>A 60% weight age shall be given to the one-page Plan and 40% to the pitch. </li>	<li>The decision of judges will be final. </li>	<li> Use of offensive remarks about other competitors during the pitch or anytime during the planning will cause severe penalty. A gentle degree of formality and professionalism is expected in the behaviours of teams. </li></ul><h4>Note</h4><p>The one-page plan is hot a general business plan but purposes to be an overall view of the ideation and planning. The teams will be required to keep a copy of the plan for themselves to help them laying out the pitch outline </p>',
         // 'rules': []
-    }
+    },
+    'module-61': {
+        'Image Name': '66.jpg',
+        'Contact': 3377255904,
+        'Heads': 'Muhammad Aqib',
+        'Maximum Members': 2,
+        'Minimun Members': 2,
+        'Module Fee': 400,
+        'Name of Module': 'Bait Baazi',
+        // 'category': '',
+        'Description': '<h3>Rules</h3><ul><li>Each team will consist of two participants.</li><li>All teams must keep in mind the ethical and moral values while selecting the couplets. The couplet once recited should not be repeated.</li><li>Discussion of judges would be final.</li><li>Nazm verses are not allowed to be recited.</li><li>Not more than two verses of Ghazal are allowed to be recited.</li><li>Attack of \'Radeef\' s prohibited.</li><li>The criteria of judgement will be based upon:</li><li>Behr/Wazan</li><li>Presentation and pronunciation</li><li>Quality of thoughts</li></ul>',
+        // 'rules': []
+    },
 };
 
 var TEAMS_DATA = {
@@ -889,7 +961,7 @@ function createModulesPage() {
     for (let module_id in MODULES_DATA) {
         let module = MODULES_DATA[module_id];
         html += '<div id="' + module_id + '" class="module-card">\n';
-        html += '    <img class="module-image" src="images/placeholder - 256.jpg">\n';
+        html += '    <img class="module-image" src="images/images-modules/' + module['Image Name'] + '">\n';
         html += '    <p class="title">' + module[MODULE_KEYS[0]] + '</p>\n';
         html += '    <p class="head-name">' + module[MODULE_KEYS[1]] + '</p>\n';
         html += '    <p class="head-contact">' + module[MODULE_KEYS[2]] + '</p>\n';
@@ -946,6 +1018,7 @@ function showModuleDetail(inputModule) {
         moduleDetails += '</ul>\n';
     }
     $('#module-detail-container #module-detail').html(moduleDetails);
+    $('#module-detail-card > img').attr('src', 'images/images-modules/' + module['Image Name']);
     $('#module-detail-container').css('visibility', 'visible');
     console.log('showModuleDetail: ends');
 }

@@ -4,11 +4,14 @@ let position = new Object();
 
 
 
+
 $(document).ready(function(){
 	
 	setTimeout(function(){
 		$("#lb").hide();
 		$("#lb").css("z-index", "-1");
+		$(".section").css("display", "block");
+		$("#topbar").css("display", "block");
 	}, 1000);
 	function dimensions(){
 	elems.body = document.getElementsByTagName("body")[0];
@@ -25,9 +28,11 @@ $(document).ready(function(){
 	
 	dimensions();
 	
-	$("window").resize(function(){
-		alert(1);
-	});
+	window.onresize = () => {
+		dimensions();
+	}
+	
+	setTimeout(dimensions, 5000);
 	
 	function marginPeople(){
 		let person = document.getElementsByClassName("section3_slide_element");
