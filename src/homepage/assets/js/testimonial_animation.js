@@ -22,7 +22,7 @@ $(document).ready(function(){
 	}
 	
 	function changeTestimonial(imageURL, content){
-		image_.css({"background" : "url(assets/images/testimonials/"+imageURL+")", "background-size" : "cover"});
+		image_.css({"background" : "url(homepage/assets/images/testimonials/"+imageURL+")", "background-size" : "cover"});
 		testimonial.text(content);
 	}
 	
