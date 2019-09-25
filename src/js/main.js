@@ -589,7 +589,7 @@ var MODULES_DATA = {
         'Module Fee': 500,
         'Name of Module': 'Krypto',
         // 'category': '',
-        'Description': '<p>Krypto is a module to introduce the art of cryptography to the next generation of brilliant minds. This module focuses on working with cryptic texts and puzzles in an interesting, challenging yet in a fun and amusing way. Krypto at its core is designed as a competitive race against time. Each will be challenged to decrypt different kind of cryptic puzzles that blends the digital world along with the real world environment, gaining points with each successful decryption.</p><h3>Rules</h3><ul><li>Each team will have 2 participants. </li><li>The team with highest points will be the winner. </li><li>The algorithms that are going to be used in this module will be disclosed 3 days prior (on Wednesday) to the competition. </li><li>Maximum Time provided will be 7 hours. </li><li>Each team will be provided with a paper and a pencil. </li>',
+        'Description': '<p>Krypto is a module to introduce the art of cryptography to the next generation of brilliant minds. This module focuses on working with cryptic texts and puzzles in an interesting, challenging yet in a fun and amusing way. Krypto at its core is designed as a competitive race against time. Each will be challenged to decrypt different kind of cryptic puzzles that blends the digital world along with the real world environment, gaining points with each successful decryption.</p><h3>Guidelines to be followed:</h3><ul><li>Each team will have 2 participants.</li><li>The game will start at 10 am till 5 pm inclusive of break and work. </li><li>Per team a puzzle book will be distributed among all the teams. </li><li>QR-code reader must be installed in the mobiles. </li><li>A map will be provided to show the parameters and locations of QR-codes. </li><li>The algorithms that are going to be used in this module will be disclosed on the day of the competition (Saturday). </li></ul><h3>Winning Criteria:</h3><ul><li>After 5 pm, the team with highest points will be the winning team. </li><li>Clear all the levels of Krypto by 5pm and submit the results before all the other teams. </li><li>In case two or more teams achieve equal scores, then the final decision will be made on the basis of submission time. </li></ul>',
         // 'rules': []
     },
     'module-50': {
@@ -834,7 +834,7 @@ var videoIndex = 0;
 var TAG = '[main.js] : ';
 
 $(function() {
-    console.log(TAG + 'document: starts');
+    // console.log(TAG + 'document: starts');
 
     let htmlPath = window.location.href;
     // let domainName = 'pionpieas.com';
@@ -844,12 +844,12 @@ $(function() {
     currentPage = htmlPath.substring(startIndex + domainName.length + 1, endIndex);
     $('.active').removeClass('active');
 
-    console.log(TAG + 'htmlPath: ' + htmlPath);
+    // console.log(TAG + 'htmlPath: ' + htmlPath);
     console.log(TAG + 'domainName: ' + domainName);
-    console.log(TAG + 'domainName.length: ' + domainName.length);
-    console.log(TAG + 'startIndex: ' + startIndex);
-    console.log(TAG + 'endIndex: ' + endIndex);
-    console.log(TAG + 'currentPage: ' + currentPage);
+    // console.log(TAG + 'domainName.length: ' + domainName.length);
+    // console.log(TAG + 'startIndex: ' + startIndex);
+    // console.log(TAG + 'endIndex: ' + endIndex);
+    // console.log(TAG + 'currentPage: ' + currentPage);
 
     $('#nav-menu-control').click(function() {
         console.log(TAG + 'nav-menu-control click: starts');
@@ -949,7 +949,7 @@ $(function() {
             break;
     }
 
-    console.log(TAG + 'document: ends');
+    // console.log(TAG + 'document: ends');
 });
 
 var MODULE_KEYS = ['Name of Module', 'Heads', 'Contact', 'Minimun Members', 'Maximum Members', 'Module Fee'];
