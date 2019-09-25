@@ -1,0 +1,240 @@
+'module-01': {
+	'Image Name': '25.jpg',
+	'Name of Module': 'Egg Drop',
+},
+'module-02': {
+	'Image Name': '28.jpg',
+	'Name of Module': 'Bridge Building',
+},
+'module-03': {
+	'Image Name': '29.jpg',
+	'Name of Module': 'RC Car',
+},
+'module-04': {
+	'Image Name': '26.jpg',
+	'Name of Module': 'Gladiator',
+},
+'module-05': {
+	'Image Name': '31.jpg',
+	'Name of Module': 'Hot Air Ballon',
+},
+'module-06': {
+	'Image Name': '27.jpg',
+	'Name of Module': 'Cadding',
+},
+'module-07': {
+	'Image Name': '53.jpg',
+	'Name of Module': 'PUBG Mobile',
+},
+'module-08': {
+	'Image Name': '45.jpg',
+	'Name of Module': 'Call of Duty 4',
+},
+'module-09': {
+	'Image Name': '44.jpg',
+	'Name of Module': 'FIFA 19',
+},
+'module-10': {
+	'Image Name': '43.jpg',
+	'Name of Module': 'Counter Strike 1.6',
+},
+'module-11': {
+	'Image Name': '51.jpg',
+	'Name of Module': 'NFS Most Wanted 1.3',
+},
+'module-12': {
+	'Image Name': '52.jpg',
+	'Name of Module': 'Tekken 7',
+},
+'module-13': {
+	'Image Name': '54.jpg',
+	'Name of Module': 'Parliamentary Debates',
+},
+'module-14': {
+	'Image Name': '55.jpg',
+	'Name of Module': 'Product Photography',
+},
+'module-15': {
+	'Image Name': '56.jpg',
+	'Name of Module': 'Portrait Retouching',
+},
+'module-16': {
+	'Image Name': '57.jpg',
+	'Name of Module': 'Portrait Photography',
+},
+'module-17': {
+	'Image Name': '1.jpg',
+	'Name of Module': 'Scrap Art',
+},
+'module-18': {
+	'Image Name': '4.jpg',
+	'Name of Module': 'Live Painting',
+},
+'module-19': {
+	'Image Name': '5.jpg',
+	'Name of Module': 'Calligraphy & Sketching',
+},
+'module-20': {
+	'Image Name': '2.jpg',
+	'Name of Module': 'Got Talent',
+},
+'module-21': {
+	'Image Name': '3.jpg',
+	'Name of Module': 'T-Shirt Design',
+},
+'module-22': {
+	'Image Name': '7.jpg',
+	'Name of Module': 'Writing',
+},
+'module-24': {
+	'Image Name': '10.jpg',
+	'Name of Module': 'Badminton (Boys Single)',
+},
+'module-25': {
+	'Image Name': '10.jpg',
+	'Name of Module': 'Badminton (Girls Single)',
+},
+'module-26': {
+	'Image Name': '10.jpg',
+	'Name of Module': 'Badminton (Boys Doubles)',
+},
+'module-27': {
+	'Image Name': '10.jpg',
+	'Name of Module': 'Badminton (Girls Doubles)',
+},
+'module-28': {
+	'Image Name': '11.jpg',
+	'Name of Module': 'Table Tennis (Boys Single)',
+},
+'module-29': {
+	'Image Name': '11.jpg',
+	'Name of Module': 'Table Tennis (Girls Single)',
+},
+'module-30': {
+	'Image Name': '11.jpg',
+	'Name of Module': 'Table Tennis (Boys Doubles)',
+},
+'module-31': {
+	'Image Name': '11.jpg',
+	'Name of Module': 'Table Tennis (Girls Doubles)',
+},
+'module-32': {
+	'Image Name': '12.jpg',
+	'Name of Module': 'Futsal',
+},
+'module-33': {
+	'Image Name': '63.jpg',
+	'Name of Module': 'Cricket',
+},
+'module-34': {
+	'Image Name': '64.jpg',
+	'Name of Module': 'Volley Ball',
+},
+'module-35': {
+	'Image Name': '61.jpg',
+	'Name of Module': 'Athletics (100 m)',
+},
+'module-36': {
+	'Image Name': '17.jpg',
+	'Name of Module': 'Tug of War',
+},
+'module-37': {
+	'Image Name': '16.jpg',
+	'Name of Module': 'Chess',
+},
+'module-38': {
+	'Image Name': '14.jpg',
+	'Name of Module': 'Ludo (Doubles)',
+},
+'module-39': {
+	'Image Name': '14.jpg',
+	'Name of Module': 'Ludo (Single)',
+},
+'module-40': {
+	'Image Name': '8.jpg',
+	'Name of Module': 'Basket Ball',
+},
+'module-41': {
+	'Image Name': '38.jpg',
+	'Name of Module': 'Scavenger Hunt',
+},
+'module-42': {
+	'Image Name': '35.jpg',
+	'Name of Module': 'Minute to Win it',
+},
+'module-43': {
+	'Image Name': '40.jpg',
+	'Name of Module': 'Battle of Theetas',
+},
+'module-44': {
+	'Image Name': '36.jpg',
+	'Name of Module': 'Antakshiri',
+},
+'module-45': {
+	'Image Name': '39.jpg',
+	'Name of Module': 'Blue Book',
+},
+'module-46': {
+	'Image Name': '41.jpg',
+	'Name of Module': 'Mind Melting',
+},
+'module-47': {
+	'Image Name': '42.jpg',
+	'Name of Module': 'Leibniz of Pakistan',
+},
+'module-48': {
+	'Image Name': '58.jpg',
+	'Name of Module': 'Web Design Competition',
+},
+'module-49': {
+	'Image Name': '65.jpg',
+	'Name of Module': 'Krypto',
+},
+'module-50': {
+	'Image Name': '22.jpg',
+	'Name of Module': 'Code Frenzy',
+},
+'module-51': {
+	'Image Name': '19.jpg',
+	'Name of Module': 'Swift Wiring',
+},
+'module-52': {
+	'Image Name': '21.jpg',
+	'Name of Module': 'Project Exhibition',
+},
+'module-53': {
+	'Image Name': '20.jpg',
+	'Name of Module': 'Think Holmes',
+},
+'module-54': {
+	'Image Name': '24.jpg',
+	'Name of Module': 'Astromania',
+},
+'module-55': {
+	'Image Name': '23.jpg',
+	'Name of Module': 'Rube Goldberg machine',
+},
+'module-56': {
+	'Image Name': '18.jpg',
+	'Name of Module': 'Roboate',
+},
+'module-57': {
+	'Image Name': '59.jpg',
+	'Name of Module': 'Robo Maze',
+},
+'module-58': {
+	'Image Name': '60.jpg',
+	'Name of Module': 'Robo Race',
+},
+'module-59': {
+	'Image Name': '62.jpg',
+	'Name of Module': 'Alpha Arduino',
+},
+'module-60': {
+	'Image Name': '32.jpg',
+	'Name of Module': 'PLAN IT',
+},
+'module-61': {
+	'Image Name': '66.jpg',
+	'Name of Module': 'Bait Baazi',
+}
