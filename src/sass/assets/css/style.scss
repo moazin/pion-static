@@ -1,0 +1,53 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/font-awesome/scss/font-awesome.scss';
+* {
+    --color-1: #250E28;
+    --color-2: #F4EDDA;
+    --color-3: #ED4732;
+    --color-4: #F2DAC2;
+    --color-5: #F4E8C0;
+    --color-6: #F4E4C0;
+    --color-7: #F9C311;
+    --color-8: #EB9A20;
+    box-sizing: border-box;
+    font-family: 'Roboto', comfortaa, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 14px;
+}
+
+#s1 {
+    width: 800px;
+    height: 800px;
+    margin-left: calc(50% + 100px);
+    margin-top: -5%;
+}
+
+#s2 {
+    width: 300px;
+    height: 300px;
+    margin-top: 15%;
+    display: inline-block;
+}
+
+.button {
+    width: auto;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    background: #f06446dd;
+    font-size: 18px;
+}

@@ -1,0 +1,265 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/font-awesome/scss/font-awesome.scss';
+* {
+    --color-1: #250E28;
+    --color-2: #F4EDDA;
+    --color-3: #ED4732;
+    --color-4: #F2DAC2;
+    --color-5: #F4E8C0;
+    --color-6: #F4E4C0;
+    --color-7: #F9C311;
+    --color-8: #EB9A20;
+    box-sizing: border-box;
+    font-family: roboto, comfortaa, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    width: 100%;
+    // display: none;
+    overflow: hidden;
+}
+
+#section1 {
+    padding: 32px;
+}
+
+#section1 #main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#section1 #main #title {
+    color: #240f27dd;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#section1 #main #subtitle {
+    font-size: 18px;
+    color: #f06446dd;
+    font-weight: bold;
+}
+
+#section1 #countdown {
+    width: 100%;
+    background: white;
+}
+
+#section1 .box {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+#section1 .box div {
+    font-size: 32px;
+}
+
+.title {
+    color: #240f27dd;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #f06446dd;
+    font-weight: bold;
+}
+
+#section2 {
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#section2 .main {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    flex: 1 1 50%;
+}
+
+#section2 .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#section2 .container img {
+    width: 25%;
+    min-width: 100px;
+    max-width: 140px;
+    margin: 16px;
+}
+
+#section3 {
+    background: #240f27ee;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#section3_main {
+    padding: 16px;
+    flex: 1 1 50%;
+    min-width: 300px;
+}
+
+#section3p {
+    color: white;
+}
+
+// #section3_list {
+//     color: #ffffffaa;
+//     margin-left: 50px;
+//     margin-top: 50px;
+//     display: block;
+// }
+// #section3_list li {
+//     margin-top: 10px;
+// }
+#section3_slide {
+    flex: 1 1 50%;
+}
+
+#main_testimonial {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+}
+
+#testimonial_image {
+    width: 180px;
+    height: 180px;
+    background: white;
+}
+
+#testimonial_content {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+// .section3_slide_element {
+//     width: 80px;
+//     height: 80px;
+//     background: grey;
+//     margin-top: 10px;
+// }
+// .col_container {
+//     height: 800px;
+// }
+// .col {
+//     vertical-align: top;
+//     overflow: hidden;
+//     width: 80px;
+//     height: 450px;
+//     display: inline-block;
+// }
+// .slidedown {
+//     animation: scrolldown 18s linear infinite;
+// }
+// .slideup {
+//     animation: scrollup 18s linear infinite;
+// }
+// @keyframes scrollup {
+//     0% {
+//         margin-top: 0%
+//     }
+//     50% {
+//         margin-top: -30%
+//     }
+//     100% {
+//         margin-top: 00%
+//     }
+// }
+// @keyframes scrolldown {
+//     0% {
+//         margin-top: -30%
+//     }
+//     50% {
+//         margin-top: 0%
+//     }
+//     100% {
+//         margin-top: -30%
+//     }
+// }
+#section4 {
+    background: white;
+}
+
+.section4block {
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4block>div {
+    flex: 1 1 100%;
+    max-width: 256px;
+}
+
+#section4 #button-day {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.day-button {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 2px solid #240f27dd;
+    border-radius: 100%;
+    color: #240f27dd;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 8px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.section4block .transformed_block_container {
+    height: 150px;
+    width: 150px;
+}
+
+.section4block .title {
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+    margin-top: -32px;
+    // flex: 1 1 100%;
+}
+
+.day2,
+.day3 {
+    display: none;
+}
