@@ -601,7 +601,7 @@ var MODULES_DATA = {
         'Module Fee': 500,
         'Name of Module': 'Code Frenzy',
         'category': 'Technical',
-        'Description': '<p>The participants will be given a set of programming puzzles and problems that they have to solve.</p><h3>Rules</h3><ul><li>Each team will have 2 to 3 participants. </li><li>The team who solve the highest number of problems will win. </li><li>Teams will use the PCs in CC. Internet usage is not allowed. </li><li>Maximum Time provided will be 2 hours. </li><li>Each team will be provided with a PC, a pencil and a paper. </li>',
+        'Description': '<p>The participants will be given a set of programming puzzles and problems that they have to solve.</p><h3>Rules</h3><ul><li>Only C++ is allowed for solving programming problems.</li><li>Each team will have 2 to 3 participants. </li><li>The team who solve the highest number of problems will win. </li><li>Teams will use the PCs in CC. Internet usage is not allowed. </li><li>Maximum Time provided will be 2 hours. </li><li>Each team will be provided with a PC, a pencil and a paper. </li>',
         // 'rules': []
     },
     'module-51': {
