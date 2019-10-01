@@ -883,13 +883,14 @@ $(function() {
             console.log(TAG + 'case modules: setting up modules.html');
             $('#nav-menu a[fileName="modules"]').addClass('active');
             createModulesPage();
+            createModulesSlider();
             $('#search-bar #search-input').keyup(function() {
                 console.log('search-input keypress: starts');
                 let searchString = $('#search-bar #search-input').val();
                 console.log('search-input keypress: ' + searchString);
                 console.log(searchString.length);
                 if (searchString.length > 0) {
-                    let modulesList = $('#modules-list .module-card');
+                    let modulesList = $('.modules-list-container .module-card');
                     console.log(modulesList.length);
                     for (let module of modulesList) {
                         let id = $(module).attr('id');
@@ -903,7 +904,7 @@ $(function() {
                         }
                     }
                 } else {
-                    $('#modules-list .module-card').show();
+                    $('.modules-list-container .module-card').show();
                 }
                 console.log('search-input keypress: ends');
             });
@@ -988,19 +989,30 @@ var MODULE_KEYS = ['Name of Module', 'Heads', 'Contact', 'Minimun Members', 'Max
 
 function createModulesPage() {
     console.log(TAG + 'createModulesPage: starts');
-    let html = '';
+    let html = {
+        'Technical': [],
+        'Non-Technical': [],
+        'Sports': [],
+        'E-Sports': [],
+    };
     let clickedCard;
     for (let module_id in MODULES_DATA) {
         let module = MODULES_DATA[module_id];
-        html += '<div id="' + module_id + '" class="module-card">\n';
-        html += '    <img class="module-image" src="images/images-modules/' + module['Image Name'] + '">\n';
-        html += '    <p class="title">' + module[MODULE_KEYS[0]] + '</p>\n';
-        html += '    <p class="head-name">' + module[MODULE_KEYS[1]] + '</p>\n';
-        html += '    <p class="head-contact">' + module[MODULE_KEYS[2]] + '</p>\n';
-        html += '</div>\n';
+        let category = module['category'];
+        html[category] += '<div id="' + module_id + '" class="module-card">\n';
+        html[category] += '    <img class="module-image" src="images/images-modules/' + module['Image Name'] + '">\n';
+        html[category] += '    <div class="text-gradient-2">';
+        html[category] += '        <p class="title">' + module[MODULE_KEYS[0]] + '</p>\n';
+        html[category] += '        <p class="head-name">' + module[MODULE_KEYS[1]] + '</p>\n';
+        html[category] += '        <p class="head-contact">' + module[MODULE_KEYS[2]] + '</p>\n';
+        html[category] += '    </div>';
+        html[category] += '</div>\n';
     }
-    $('#modules #modules-list').html(html);
-    $('#modules-list .module-card').click(function() {
+    $('#modules #Technical-Modules').html(html['Technical']);
+    $('#modules #Non-Technical-Modules').html(html['Non-Technical']);
+    $('#modules #Sports-Modules').html(html['Sports']);
+    $('#modules #ESports-Modules').html(html['E-Sports']);
+    $('.modules-list-container .module-card').click(function() {
         console.log('module-card click: starts');
         showModuleDetail(this);
         clickedCard = this;
@@ -1021,6 +1033,40 @@ function createModulesPage() {
         clickedCard = $(clickedCard).next();
     });
     console.log(TAG + 'createModulesPage: ends');
+}
+
+function createModulesSlider() {
+    let INNER_TAG = '[createModulesSlider]';
+    console.log(INNER_TAG + '[starts]');
+    let modules_list = $('.modules-list-container');
+    console.log(modules_list.length);
+
+    let html = '<ul>\n';
+    for (let i = 0; i < modules_list.length; i++) {
+        // console.log(sections[i]);
+        html += '    <li>\n';
+        html += '        <span id="tooltip">' + $(modules_list[i]).attr('id') + '</span>\n';
+        html += '        <a href="#' + $(modules_list[i]).attr('id') + '">•</a>\n';
+        html += '    </li>\n';
+    }
+    html += '</ul>';
+    // console.log(html);
+    $('#slider').html(html);
+
+    $('#slider li').hover(function() {
+        $($(this).children()[0]).toggle();
+    });
+
+    $(window).mousemove(function(e) {
+        let mouseX = e.clientX;
+        let windowWidth = window.innerWidth;
+        if (mouseX >= 0.9 * windowWidth) {
+            $('#slider').css('opacity', 1);
+        } else {
+            $('#slider').css('opacity', 0.5);
+        }
+    });
+    console.log(INNER_TAG + '[ends]');
 }
 
 function showModuleDetail(inputModule) {
@@ -1051,6 +1097,7 @@ function showModuleDetail(inputModule) {
     }
     $('#module-detail-container #module-detail').html(moduleDetails);
     $('#module-detail-card > img').attr('src', 'images/images-modules/' + module['Image Name']);
+    $('#module-detail-card > img').css('width', '100%');
     $('#module-detail-container').css('visibility', 'visible');
     console.log('showModuleDetail: ends');
 }
@@ -1072,8 +1119,10 @@ function createTeamsPage() {
             for (let name of coordinators) {
                 html += '            <div class="team-member">\n';
                 html += '                <img src="images/images-coordinators/' + name + '.jpg">\n';
-                html += '                <p class="member-name">' + name + '</p>\n';
-                html += '                <p class="member-post">Coordinator</p>\n';
+                html += '                <div class="text-gradient">';
+                html += '                    <p class="member-name">' + name + '</p>\n';
+                html += '                    <p class="member-post">Coordinator</p>\n';
+                html += '                </div>';
                 html += '            </div>\n';
             }
             html += '        </div>\n';
@@ -1083,8 +1132,10 @@ function createTeamsPage() {
             for (let name of heads) {
                 html += '            <div class="team-member">\n';
                 html += '                <img src="images/images-heads/' + name + '.jpg">\n';
-                html += '                <p class="member-name">' + name + '</p>\n';
-                html += '                <p class="member-post">Head</p>\n';
+                html += '                <div class="text-gradient">';
+                html += '                    <p class="member-name">' + name + '</p>\n';
+                html += '                    <p class="member-post">Head</p>\n';
+                html += '                </div>';
                 html += '            </div>\n';
             }
             html += '        </div>\n';
@@ -1094,8 +1145,10 @@ function createTeamsPage() {
             for (let name of members) {
                 html += '            <div class="team-member">\n';
                 html += '                <img src="images/images-members/' + name + '.jpg">\n';
-                html += '                <p class="member-name">' + name + '</p>\n';
-                html += '                <p class="member-post">Member</p>\n';
+                html += '                <div class="text-gradient">';
+                html += '                    <p class="member-name">' + name + '</p>\n';
+                html += '                    <p class="member-post">Member</p>\n';
+                html += '                </div>';
                 html += '            </div>\n';
             }
             html += '        </div>\n';

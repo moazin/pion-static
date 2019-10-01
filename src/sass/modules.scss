@@ -65,17 +65,25 @@
     padding: 2px 8px;
 }
 
-#modules-list {
+.modules-list-container {
     width: 100%;
     background: var(--color-2);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 64px 8px;
+    padding: 0px 8px 64px 8px;
 }
 
-#modules-list .module-card {
+.modules-list-container h1 {
+    width: 100%;
+    text-align: center;
+    background: gray;
+    padding: 32px;
+    margin: 0px;
+}
+
+.modules-list-container .module-card {
     width: 75%;
     max-width: 256px;
     border: 1px solid #000000;
@@ -86,7 +94,7 @@
     overflow: hidden;
 }
 
-#modules-list .module-card:hover {
+.modules-list-container .module-card:hover {
     animation-name: card-up;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
@@ -104,6 +112,10 @@
     object-fit: cover;
 }
 
+.module-card .text-gradient-2 {
+    background: linear-gradient(0deg, var(--color-8), var(--color-7));
+}
+
 .module-card p {
     color: #F4EDDA;
     margin: 0px;
@@ -114,12 +126,12 @@
 
 .module-card .title {
     font-size: 20px;
-    border-bottom: 1px solid #ffffff;
+    // border-bottom: 1px solid #ffffff;
 }
 
 .module-card .head-name {
     font-size: 18px;
-    border-bottom: 1px solid #ffffff;
+    // border-bottom: 1px solid #ffffff;
 }
 
 .module-card .head-contact {
