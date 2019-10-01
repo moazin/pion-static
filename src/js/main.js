@@ -666,8 +666,8 @@ var MODULES_DATA = {
     },
     'module-56': {
         'Image Name': '18.jpg',
-        'Contact': 3341541549,
-        'Heads': 'Sarmad Salman',
+        'Contact': 3374683378,
+        'Heads': 'Qasim Zafar',
         'Maximum Members': 6,
         'Minimun Members': 1,
         'Module Fee': 2000,
@@ -678,8 +678,8 @@ var MODULES_DATA = {
     },
     'module-57': {
         'Image Name': '59.jpg',
-        'Contact': 3337468337,
-        'Heads': 'Qasim Zafar',
+        'Contact': 3366995554,
+        'Heads': 'Nimra Anjum',
         'Maximum Members': 6,
         'Minimun Members': 1,
         'Module Fee': 2000,
