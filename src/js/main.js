@@ -212,7 +212,7 @@ var MODULES_DATA = {
         'Image Name': '4.jpg',
         'Contact': 3214896939,
         'Heads': 'Irtiza',
-        'Maximum Members': 3,
+        'Maximum Members': 4,
         'Minimun Members': 1,
         'Module Fee': 1000,
         'Name of Module': 'Live Painting',
