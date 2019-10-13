@@ -177,12 +177,14 @@
     text-transform: uppercase;
 }
 
-#executives {
+#executives,
+#mentors {
     width: 100%;
     height: auto;
 }
 
-#executives img {
+#executives img,
+#mentors img {
     width: 100%;
     height: 100%;
 }
