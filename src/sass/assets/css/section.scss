@@ -124,6 +124,7 @@ body {
 
 #section3p {
     color: white;
+    text-align: justify;
 }
 
 // #section3_list {
@@ -152,12 +153,13 @@ body {
     width: 180px;
     height: 180px;
     background: white;
+    border-radius: 8px;
 }
 
 #testimonial_content {
     color: white;
     font-size: 18px;
-    font-weight: bold;
+    margin-top: 16px;
 }
 
 // .section3_slide_element {

@@ -44,10 +44,11 @@ footer {
 }
 
 footer #main-box {
+    padding: 16px 0;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-content: stretch;
+    justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
     background: linear-gradient(180deg, var(--color-4), transparent);
 }
