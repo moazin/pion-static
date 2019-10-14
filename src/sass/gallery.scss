@@ -53,6 +53,16 @@
     align-items: flex-start;
 }
 
+.section-title,
+.box-title {
+    background: white;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1 1 100%;
+    text-align: center;
+}
+
 .pion-gallery .day-container {
     padding: 8px;
     text-align: center;
@@ -62,13 +72,6 @@
     justify-content: flex-start;
     align-items: stretch;
     margin: 16px;
-}
-
-.day-container h2 {
-    background: white;
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
 }
 
 .day-container iframe {
